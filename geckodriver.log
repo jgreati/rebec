@@ -1,0 +1,408 @@
+1673920908407	geckodriver	INFO	Listening on 127.0.0.1:53370
+1673920911497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilefSHjx4"
+1673920913031	Marionette	INFO	Marionette enabled
+1673920913040	Marionette	INFO	Listening on port 53382
+Read port: 53382
+WebDriver BiDi listening on ws://127.0.0.1:53371
+1673920913281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilefSHjx4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53371/devtools/browser/dc5ce40b-25c5-4bf0-9a72-0f5c44c953c7
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1673922127872	Marionette	INFO	Stopped listening on port 53382
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilevvHhvc"
+1673921167334	Marionette	INFO	Marionette enabled
+1673921167343	Marionette	INFO	Listening on port 53449
+Read port: 53449
+WebDriver BiDi listening on ws://127.0.0.1:53439
+1673921167582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilevvHhvc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53439/devtools/browser/97fbd798-c7cc-41f3-8346-13c254048044
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1673922129511	Marionette	INFO	Stopped listening on port 53449
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53511" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofile2LaWZw"
+1673921303490	Marionette	INFO	Marionette enabled
+1673921303501	Marionette	INFO	Listening on port 53524
+Read port: 53524
+WebDriver BiDi listening on ws://127.0.0.1:53511
+1673921303801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofile2LaWZw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53511/devtools/browser/05cb29c9-ea93-4de8-96cc-78025b3974fc
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1673922125150	Marionette	INFO	Stopped listening on port 53524
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilecU63VK"
+1673921361432	Marionette	INFO	Marionette enabled
+1673921361438	Marionette	INFO	Listening on port 53591
+Read port: 53591
+WebDriver BiDi listening on ws://127.0.0.1:53581
+1673921361729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilecU63VK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53581/devtools/browser/e4800315-6089-42c9-8424-1d8a06ba5383
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1673922121789	Marionette	INFO	Stopped listening on port 53591
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53680" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileqWaU1q"
+1673921572477	Marionette	INFO	Marionette enabled
+1673921572489	Marionette	INFO	Listening on port 53690
+Read port: 53690
+WebDriver BiDi listening on ws://127.0.0.1:53680
+1673921572760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileqWaU1q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53680/devtools/browser/889d69d8-9d8a-46d5-8c19-984a207b1813
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1673922123477	Marionette	INFO	Stopped listening on port 53690
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674076454944	geckodriver	INFO	Listening on 127.0.0.1:63775
+1674076457979	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63776" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileavfiTf"
+1674076459562	Marionette	INFO	Marionette enabled
+1674076459573	Marionette	INFO	Listening on port 63786
+Read port: 63786
+WebDriver BiDi listening on ws://127.0.0.1:63776
+1674076459830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileavfiTf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63776/devtools/browser/e5edf96e-e151-4b39-9509-669ef1b297c6
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ensaiosclinicos.gov.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ensaiosclinicos.gov.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ensaiosclinicos.gov.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ensaiosclinicos.gov.br."
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674411846320	Marionette	INFO	Stopped listening on port 63786
+st_mozprofilegUMdcO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63840/devtools/browser/85240f4c-39db-42a6-897a-1dd403772e8d
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1674402770006	Marionette	INFO	Stopped listening on port 63849
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+74076683192	Marionette	INFO	Marionette enabled
+1674076683200	Marionette	INFO	Listening on port 63915
+Read port: 63915
+WebDriver BiDi listening on ws://127.0.0.1:63906
+1674076683453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilegbMyPg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63906/devtools/browser/7978504b-3dd1-40de-bb67-735d9bf97852
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1674402768627	Marionette	INFO	Stopped listening on port 63915
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+74076792849	Marionette	INFO	Marionette enabled
+1674076792857	Marionette	INFO	Listening on port 63979
+Read port: 63979
+WebDriver BiDi listening on ws://127.0.0.1:63970
+1674076793093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilewxaMKd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63970/devtools/browser/bf094e35-5beb-4720-b080-968ba9fd5656
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ensaiosclinicos.gov.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ensaiosclinicos.gov.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ensaiosclinicos.gov.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ensaiosclinicos.gov.br."
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1674402760480	Marionette	INFO	Stopped listening on port 63979
+ote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileeVYH6l"
+1674077506587	Marionette	INFO	Marionette enabled
+1674077506597	Marionette	INFO	Listening on port 64587
+Read port: 64587
+WebDriver BiDi listening on ws://127.0.0.1:64578
+1674077506862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileeVYH6l\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64578/devtools/browser/47d4002a-2f64-478d-ac26-dc8fc155c6ec
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1674402762026	Marionette	INFO	Stopped listening on port 64587
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+74078827592	Marionette	INFO	Marionette enabled
+1674078827602	Marionette	INFO	Listening on port 64700
+Read port: 64700
+WebDriver BiDi listening on ws://127.0.0.1:64691
+1674078827858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilePO5DrA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64691/devtools/browser/a8e576b7-5c43-4a47-bf37-f9168fd7b2dc
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1674402763597	Marionette	INFO	Stopped listening on port 64700
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+74079294772	Marionette	INFO	Marionette enabled
+1674079294783	Marionette	INFO	Listening on port 64775
+Read port: 64775
+WebDriver BiDi listening on ws://127.0.0.1:64766
+1674079295026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofile1N277g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64766/devtools/browser/cbb9e7bd-89fc-43b6-9e33-7e03b8e81849
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1674402765188	Marionette	INFO	Stopped listening on port 64775
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nai\\AppData\\Local\\Temp\\rust_mozprofile179kMa"
+1674227937681	Marionette	INFO	Marionette enabled
+1674227937690	Marionette	INFO	Listening on port 54762
+Read port: 54762
+WebDriver BiDi listening on ws://127.0.0.1:54752
+1674227937949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofile179kMa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54752/devtools/browser/94e66721-be81-4eb2-9e92-f84b6cdfdcef
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript error: https://embed.tawk.to/_s/v4/app/63b77dcd282/js/twk-chunk-vendors.js, line 2: Error: websocket error
+JavaScript error: https://embed.tawk.to/_s/v4/app/63b77dcd282/js/twk-chunk-vendors.js, line 2: Error: websocket error
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1674402766893	Marionette	INFO	Stopped listening on port 54762
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674405529231	geckodriver	INFO	Listening on 127.0.0.1:50165
+1674405532393	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50166" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileWfD6Lx"
+1674405533692	Marionette	INFO	Marionette enabled
+1674405533699	Marionette	INFO	Listening on port 50178
+Read port: 50178
+WebDriver BiDi listening on ws://127.0.0.1:50166
+1674405533905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileWfD6Lx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50166/devtools/browser/5134c8c5-38d0-4ea1-8754-20ee628c433f
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674411846286	Marionette	INFO	Stopped listening on port 50178
+4407319052	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54027" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileLeTtsQ"
+1674407319666	Marionette	INFO	Marionette enabled
+1674407319675	Marionette	INFO	Listening on port 54037
+Read port: 54037
+WebDriver BiDi listening on ws://127.0.0.1:54027
+1674407319884	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileLeTtsQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54027/devtools/browser/59a5fab0-b07e-46f1-ad69-87bd8cd82cc4
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674411847013	Marionette	INFO	Stopped listening on port 54037
+4410041480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62955" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileymmbtM"
+1674410042123	Marionette	INFO	Marionette enabled
+1674410042131	Marionette	INFO	Listening on port 62966
+Read port: 62966
+WebDriver BiDi listening on ws://127.0.0.1:62955
+1674410042342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileymmbtM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62955/devtools/browser/aff3b831-ca64-4c15-8821-7c489c5ba237
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674411846081	Marionette	INFO	Stopped listening on port 62966
+4410346497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63181" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofile5EX1tc"
+1674410347044	Marionette	INFO	Marionette enabled
+1674410347053	Marionette	INFO	Listening on port 63191
+Read port: 63191
+WebDriver BiDi listening on ws://127.0.0.1:63181
+1674410347252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofile5EX1tc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63181/devtools/browser/04ae967e-cb97-40f2-a9c5-300ad024137d
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674411846110	Marionette	INFO	Stopped listening on port 63191
+4410870814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63534" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileo3plO6"
+1674410871405	Marionette	INFO	Marionette enabled
+1674410871415	Marionette	INFO	Listening on port 63545
+Read port: 63545
+WebDriver BiDi listening on ws://127.0.0.1:63534
+1674410871616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileo3plO6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63534/devtools/browser/7762dcfc-aefd-4fbe-b271-31b8c033b650
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 5094 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 769 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 792 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 1432 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.geeksforgeeks.org/find-the-text-of-the-given-tag-using-beautifulsoup/ line 1 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 6289 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 4034 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 5587 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pix.adrta.com/cdnf.js?v=22.110, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-ezk6DY8pwNxCt&moatClientLevel2=qfm&moatClientLevel3=b3733963-1eb0-4948-ae62-b0ec04bc31ce&moatClientLevel4=5bd65dab-49c1-4b56-a4c6-8a71411a937d&uid=e7KGpi2x3fQqsNT6fuPS-n_hg_B_5NHzK7GApi_jgPN85NGgJeaE8gp_PL4=, line 240: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 4439 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 7056 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 7674 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-4T98ck4dZrJdS&moatClientLevel2=qfm&moatClientLevel3=83848157-dc5b-4186-b352-0697e2473365&moatClientLevel4=da84ce05-199d-4a49-87c8-394e80de9938&uid=Qmz360MfgZtebPaaQ3SA6kZgmZpBa431RmqN7jUc8u02HIaZRpsu-g==, line 240: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside-20.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 4540 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://z.moatads.com/quantcastv2691176990399/moatad.js#moatClientLevel1=p-tTB93UFC5vepM&moatClientLevel2=qfm&moatClientLevel3=73b7a5d9-76a1-4275-a975-394cd0d44cca&moatClientLevel4=ac0f7ebf-0f37-4531-88de-3ddc3f48c9ce&uid=kp3JBJqd2XKWn9UVsrvlHpL_5Smyk0dAJGg=, line 240: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 7100 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 7019 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 7043 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 5617 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2p1674411845548	Marionette	INFO	Stopped listening on port 57603
+1674411845647	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIServerSocket.close]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: chrome://remote/content/server/HTTPD.jsm :: stop :: line 660"  data: no] Stack trace: stop()@HTTPD.jsm:660
+#stop()@sys.mjs:323
+val line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 3874 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OU_aD-3-G2pcaJqwlUagl315JVS_daCE4k47Wxj7Xso.js line 2 > eval line 573 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside-20.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1674411847052	Marionette	INFO	Stopped listening on port 63545
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1674412098451	geckodriver	INFO	Listening on 127.0.0.1:58142
+1674412101561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58143" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilemBJFI3"
+1674412102108	Marionette	INFO	Marionette enabled
+1674412102114	Marionette	INFO	Listening on port 58153
+Read port: 58153
+WebDriver BiDi listening on ws://127.0.0.1:58143
+1674412102320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilemBJFI3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58143/devtools/browser/735b8913-d66b-4638-9017-967136df7b6d
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674414032380	Marionette	INFO	Stopped listening on port 58153
+4412361134	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58366" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilemoczyf"
+1674412361715	Marionette	INFO	Marionette enabled
+1674412361724	Marionette	INFO	Listening on port 58377
+Read port: 58377
+WebDriver BiDi listening on ws://127.0.0.1:58366
+1674412361937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofilemoczyf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58366/devtools/browser/2f76831f-665d-4cac-91f1-25f5a2b46ea6
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674414032234	Marionette	INFO	Stopped listening on port 58377
+4413693449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59168" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileH8Kfk5"
+1674413693994	Marionette	INFO	Marionette enabled
+1674413694001	Marionette	INFO	Listening on port 59180
+Read port: 59180
+WebDriver BiDi listening on ws://127.0.0.1:59168
+1674413694218	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileH8Kfk5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59168/devtools/browser/e76d0f55-2c3d-442a-8a24-01ac323a1b3b
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674413793425	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674413804332	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674413815101	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1674413815116	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674413826293	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674414032089	Marionette	INFO	Stopped listening on port 59180
+1674414035677	geckodriver	INFO	Listening on 127.0.0.1:59443
+1674414038770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59444" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileS65APV"
+1674414039313	Marionette	INFO	Marionette enabled
+1674414039322	Marionette	INFO	Listening on port 59455
+Read port: 59455
+WebDriver BiDi listening on ws://127.0.0.1:59444
+1674414039522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileS65APV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59444/devtools/browser/a72ffd13-b57a-42f3-be80-bd039584398a
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript error: https://embed.tawk.to/_s/v4/app/63b77dcd282/js/twk-chunk-vendors.js, line 2: Error: websocket error
+1674433774389	Marionette	INFO	Stopped listening on port 59455
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "62410" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileqHalCs"
+1674430261700	Marionette	INFO	Marionette enabled
+1674430261708	Marionette	INFO	Listening on port 62422
+Read port: 62422
+WebDriver BiDi listening on ws://127.0.0.1:62410
+1674430261910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofileqHalCs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62410/devtools/browser/8b79b2ad-8452-4a9e-8c77-2841195e2864
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674430353918	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674430368220	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1674430368221	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674430386801	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1674430386802	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1674433774721	Marionette	INFO	Stopped listening on port 62422
+4433594423	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54709" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofile6TUnDi"
+1674433594995	Marionette	INFO	Marionette enabled
+1674433595003	Marionette	INFO	Listening on port 54720
+Read port: 54720
+WebDriver BiDi listening on ws://127.0.0.1:54709
+1674433595204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\junai\\AppData\\Local\\Temp\\rust_mozprofile6TUnDi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54709/devtools/browser/2e9e6abf-a45e-40f0-ac64-be99fe969eed
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+[Parent 21564, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+1674433774564	Marionette	INFO	Stopped listening on port 54720

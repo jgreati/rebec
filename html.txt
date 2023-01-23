@@ -1,0 +1,3679 @@
+"<head>
+<meta charset=""utf-8""/>
+<meta content=""text/html; charset=utf-8"" http-equiv=""Content-Type""/>
+<title>REBEC</title>
+<link href=""https://ensaiosclinicos.gov.br/assets/images/favicon.ico"" rel=""icon""/>
+<meta content=""width=device-width, initial-scale=1, shrink-to-fit=no"" name=""viewport""/>
+<link href=""https://ensaiosclinicos.gov.br/assets/vendors/bootstrap/css/bootstrap.min.css"" rel=""stylesheet"" type=""text/css""/>
+<link href=""https://ensaiosclinicos.gov.br/assets/vendors/font-awesome-4.7.0/css/font-awesome.min.css"" rel=""stylesheet"" type=""text/css""/>
+<link href=""https://ensaiosclinicos.gov.br/assets/vendors/flag-icon-css/css/flag-icon.min.css"" rel=""stylesheet"" type=""text/css""/>
+<style>
+        .border-dark {
+            border: 1px solid rgba(86, 61, 124, .2)
+        }
+        .rebec-background {
+            color: white;
+            background-color: #0C6B67;
+        }
+    </style>
+<script charset=""UTF-8"" crossorigin=""*"" src=""https://embed.tawk.to/_s/v4/app/63b77dcd282/js/twk-main.js""></script><script charset=""UTF-8"" crossorigin=""*"" src=""https://embed.tawk.to/_s/v4/app/63b77dcd282/js/twk-vendor.js""></script><script charset=""UTF-8"" crossorigin=""*"" src=""https://embed.tawk.to/_s/v4/app/63b77dcd282/js/twk-chunk-vendors.js""></script><script charset=""UTF-8"" crossorigin=""*"" src=""https://embed.tawk.to/_s/v4/app/63b77dcd282/js/twk-chunk-common.js""></script><script charset=""UTF-8"" crossorigin=""*"" src=""https://embed.tawk.to/_s/v4/app/63b77dcd282/js/twk-runtime.js""></script><script charset=""UTF-8"" crossorigin=""*"" src=""https://embed.tawk.to/_s/v4/app/63b77dcd282/js/twk-app.js""></script><script async="""" src=""https://www.google-analytics.com/analytics.js"" type=""text/javascript""></script><script async="""" charset=""UTF-8"" crossorigin=""*"" src=""https://embed.tawk.to/5a96bf824b401e45400d47e9/default""></script><script async="""" src=""https://ensaiosclinicos.gov.br/matomo/matomo.js"" type=""text/javascript""></script><script src=""https://ensaiosclinicos.gov.br/assets/vendors/jquery/jquery-3.4.1.min.js"" type=""text/javascript""></script>
+<script src=""https://ensaiosclinicos.gov.br/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"" type=""text/javascript""></script>
+<!--        <script type=""text/javascript""-->
+<!--                src=""--><!--""-->
+<!--                onload=""link_barra_brasil()""></script>-->
+<script crossorigin=""anonymous"" integrity=""sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ=="" referrerpolicy=""no-referrer"" src=""https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"">
+</script>
+<link crossorigin=""anonymous"" href=""https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"" integrity=""sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw=="" referrerpolicy=""no-referrer"" rel=""stylesheet""/>
+<style>
+        .breadcrumb {
+            display: inline-block;
+            padding: 0 11px;
+            border: 1px solid #d6d4d4;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 24px;
+            min-height: 6px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 5px;
+            position: relative;
+            z-index: 1;
+            list-style: none;
+            background-color: #f6f6f6;
+        }
+        .breadcrumb a, .breadcrumb a:hover {
+            display: inline-block;
+            background: #fff;
+            padding: 0 35px 0 22px;
+            margin-left: -26px;
+            position: relative;
+            z-index: 2;
+            color: #333;
+            text-decoration: none;
+        }
+        .breadcrumb a.home:before {
+            border: none;
+        }
+        .breadcrumb a:before {
+            display: inline-block;
+            content: ""."";
+            position: absolute;
+            left: -10px;
+            top: 3px;
+            width: 18px;
+            height: 18px;
+            background: transparent;
+            border-right: 1px solid #d6d4d4;
+            border-top: 1px solid #d6d4d4;
+            border-radius: 2px;
+            text-indent: -5000px;
+            z-index: -1;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .breadcrumb a:after {
+            display: inline-block;
+            content: ""."";
+            position: absolute;
+            right: -10px;
+            top: 3px;
+            width: 18px;
+            height: 18px;
+            background: #fff;
+            border-right: 1px solid #d6d4d4;
+            border-top: 1px solid #d6d4d4;
+            border-radius: 2px;
+            text-indent: -5000px;
+            z-index: -1;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .breadcrumb .navigation-pipe {
+            width: 18px;
+            display: inline-block;
+            text-indent: -5000px;
+        }
+    </style>
+<style>
+        html, body {
+            height: 100% !important;
+            font-size: 1em !important;
+        }
+    </style>
+<link href=""https://ensaiosclinicos.gov.br/assets/vendors/rebec/css/clinical_trials.css"" rel=""stylesheet"" type=""text/css""/>
+<!-- semantic -->
+<link href=""https://ensaiosclinicos.gov.br/assets/vendors/semantic/semantic.min.css"" rel=""stylesheet"" type=""text/css""/>
+<!-- semantic -->
+<script src=""https://ensaiosclinicos.gov.br/assets/vendors/semantic/semantic.min.js"" type=""text/javascript""></script>
+<!-- mousetrap -->
+<script src=""https://ensaiosclinicos.gov.br/assets/vendors/mousetrap/mousetrap.min.js"" type=""text/javascript""></script>
+<script type=""text/javascript""><!--
+
+        function modal_ajax_posting() { // main
+            $('.modal').find('form').each(function(index_n1, element_n1_form){
+                var object_n1_form = $(element_n1_form);
+// console.info('object_n1_form');
+// console.info(object_n1_form);
+                object_n1_form.find('input[action=save]')
+                    .each(function(index_n2, element_n2_input_submit){
+// console.info('object_n1_form input[type=submit] > each > object_n2_input_submit');
+                        var object_n2_input_submit = $(element_n2_input_submit);
+// console.info(object_n2_input_submit);
+                        object_n2_input_submit.attr('type', 'button');
+                        object_n2_input_submit.unbind('click');
+// console.info('object_n2_input_submit: ' + object_n2_input_submit);
+                        object_n2_input_submit.click(function(event){
+// console.info('object_n2_input_submit.click');
+                            // event.preventDefault();
+                            var object_form_parameters = Object.create(null);
+                            var form = $($(event.currentTarget).parents('form')[0]);
+                            form.find('[name]').each(function(name_index, object_n2_form_each){
+// console.info('form > [name] > each');
+// console.info($(object_n2_form_each));
+                                var name = $(object_n2_form_each).attr('name');
+                                var value = $(object_n2_form_each).val();
+//                    if (value != '' && $(object_n2_form_each).is('select')) {
+//                        value = $(object_n2_form_each).find('option:selected').val();
+//                        console.info('value: ' + value);
+//                    }
+                                $(object_form_parameters).prop(name, value);
+                            });
+// console.info(form.attr(""action""));
+// console.info(object_form_parameters);
+                            $.ajax({
+                                type: ""POST"",
+                                url: form.attr(""action""),
+                                async: false,
+                                data: object_form_parameters,
+                                success: function(data) {
+// console.info('data: [' + data + ""]"");
+                                    var responseok = '<success />';
+                                    var modalContent = form.parent('.modal-body');
+                                    var modal = form.parents('.modal');
+                                    var success = (data.length >= responseok.length && data.indexOf(responseok) > -1);
+
+// console.info('data.substring: ' + data.substring(0, responseok.length + 1));
+// console.info('success: ' + success);
+// console.info(modalContent);
+// console.info(modal);
+
+                                    $(modalContent).html(data);
+
+                                    var data_update_objects = $(data).find('[data-update]');
+// console.info('data_update_objects: ' + data_update_objects);
+// console.info('data_update_objects[0]: ' + $(data_update_objects[0]).html());
+
+                                    $(data_update_objects).each(function(modal_element_index, modal_element_update_each){
+// console.info('each: ' + modal_element_index);
+                                        //if ($(modal_element_update_each).parents('.modal').length == 0) return;
+                                        var update = $(modal_element_update_each).attr('data-update');
+                                        var conteudo_atualizado = $(modal_element_update_each).html();
+// console.info('update: ' + update);
+// console.info('conteudo atualizado: ' + conteudo_atualizado);
+                                        $('[update=""'+update+'""]').each(function(no_modal_element_index, no_modal_element_update_each){
+                                            if ($(no_modal_element_update_each).parents('.modal').length > 0) return;
+                                            var selected = '';
+                                            if ($(no_modal_element_update_each).is('select') === false) return;
+// console.info('no_modal_element_update_each: ');
+// console.info(no_modal_element_update_each);
+                                            selected = $(no_modal_element_update_each).find('option:selected').val();
+// console.info('selected: ');
+// console.info(selected);
+                                            $(no_modal_element_update_each).html(conteudo_atualizado);
+// console.info('html: ' + conteudo_atualizado);
+// console.info($(no_modal_element_update_each).children('option[value=""'+selected+'""]'));
+                                            $(no_modal_element_update_each).find('option[value=""'+selected+'""]').prop('selected', true);
+// console.info('no_modal_element_update_each: ');
+// console.info(no_modal_element_update_each);
+                                        });
+                                    });
+                                    if (success) {
+// console.info('responseok');
+// console.info('object_n1_form');
+// console.info(object_n1_form);
+                                        object_n1_form.trigger(""reset"");
+// console.info(object_n1_form.find('input[action=close]'));
+                                        // object_n1_form.find('input[action=close]').click();
+                                        $(""[data-dismiss=modal]"").trigger({ type: ""click"" });
+                                    } else {
+// console.info('no ok');
+                                    }
+                                    modal_ajax_posting();
+                                },
+                                dataType: 'html',
+                            });
+                            return false;
+                        });
+                    });
+
+            });
+        }
+        jQuery(document).ready(function(){
+// console.info('document.ready');
+            modal_ajax_posting();
+            $('[accesskey]').each(function(index, element){
+                Mousetrap.bind($(element).attr('accesskey'), function() { $(element)[0].click(); });
+            });
+            $('div.modal-add-contact').on('show.bs.modal', function (event) {
+// console.info('show.bs.modal');
+                var this_modal = $(this);
+                this_modal.find('.modal-content').html('');
+                var button = $(event.relatedTarget); // Button that triggered the modal
+                var recipient = button.data('combo'); // Extract info from data-* attributes
+                var clinicaltrial_id = button.data('clinicaltrial_id');
+                if (recipient !== undefined) {
+                    var contact_id = (recipient == '') ? '' : $('#'+recipient).val();
+                    if (contact_id != '') contact_id = contact_id.substr(contact_id.lastIndexOf('+')+1);
+                    $.ajax({
+                        method: 'PATCH',
+                        url: ""https://ensaiosclinicos.gov.br/prototype/contato/""+clinicaltrial_id+""/""+contact_id,
+                        success: function(data) {
+                            this_modal.find('.modal-content').html(data);
+                            modal_ajax_posting();
+                        }
+                    });
+                } else {
+                    $.ajax({
+                        method: 'PATCH',
+                        url: ""https://ensaiosclinicos.gov.br/prototype/contato/""+clinicaltrial_id,
+                        success: function(data) {
+                            this_modal.find('.modal-content').html(data);
+                            modal_ajax_posting();
+                        }
+                    });
+                }
+            });
+        });
+        --></script>
+<!-- Matomo -->
+<script type=""text/javascript"">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like ""setCustomDimension"" should be called before ""trackPageView"" */
+    _paq.push([""setCookieDomain"", ""*.ensaiosclinicos.gov.br""]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u=""https://ensaiosclinicos.gov.br/matomo/"";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '2']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+<noscript><p><img alt="""" src=""https://ensaiosclinicos.gov.br/matomo/matomo.php?idsite=2&amp;rec=1"" style=""border:0;""/></p></noscript>
+<!-- End Matomo Code -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="""" src=""https://www.googletagmanager.com/gtag/js?id=UA-30642716-1""></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-30642716-1');
+    </script>
+<!-- End Google Analytics -->
+<script>
+    $(document).ready(function () {
+        // $('main').css({ marginTop : $('header').height() + .2 + 'px'})
+        // $('body').css({ paddingBottom : $('footer').height() + 30 + 'px'})
+        $('[data-toggle=""tooltip""]').tooltip();
+        //
+        if ($('[type=""date""]').length == 0) {
+            console.log('no inputs date');
+        } else if ($('[type=""date""]').prop('type') != 'date') {
+            console.log('input sem date');
+            $('[type=""date""]').datepicker({ 
+                format: ""yyyy-mm-dd"",
+                todayHighlight: true
+            });
+        } else {
+            console.log('input com date');
+        }
+    });
+    $(window).resize(function () {
+        // $('main').css({ marginTop : $('header').height() + .2 + 'px'})
+        // $('body').css({ paddingBottom : $('footer').height() + 30 + 'px'})
+    });
+</script><style media=""all"" type=""text/css"">#barra-brasil div,#barra-brasil a,#barra-brasil ul,#barra-brasil li{margin:0;padding:0;font-size:100%;font-family:inherit;vertical-align:baseline;border:none}#barra-brasil ul{list-style:none}@font-face{font-family:""Open Sans"";font-style:normal;font-weight:700;font-display:swap;src:local(""Open Sans Bold""),local(""OpenSans-Bold""),url(""//barra.brasil.gov.br/static/opensans-bold.woff"") format(""woff"")}#barra-brasil{height:32px;background:#f1f1f1;font-weight:bold;font-size:12px;line-height:32px;font-family:""Open Sans"",Arial,Helvetica,sans-serif;border-bottom:1px solid #dfdfdf;box-sizing:content-box}#barra-brasil a{text-decoration:none}body.contraste #barra-brasil,body.contraste .link-vlibras{background:#000 !important}body.contraste #barra-brasil .link-barra,body.contraste #barra-brasil .link-vlibras{color:#FF0 !important;text-decoration:underline}div#wrapper-barra-brasil{position:relative;margin:0 auto;width:100%;max-width:960px;height:100%}#barra-brasil .brasil-flag{float:left;padding:7px 0 6px;width:115px;border-right:2px solid #dfdfdf}#barra-brasil .brasil-flag .link-barra{display:block;padding-left:42px;width:43px;background:url(""data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2226%22%20height%3D%2219%22%20viewBox%3D%220%200%201000%20700%22%3E%3Cpath%20fill%3D%22%2300923F%22%20d%3D%22M0%200h1000v700H0z%22%2F%3E%3Cpath%20fill%3D%22%23F8C300%22%20d%3D%22M500%2085L85%20350l415%20265%20415-265L500%2085z%22%2F%3E%3Ccircle%20fill%3D%22%2328166F%22%20cx%3D%22499%22%20cy%3D%22350%22%20r%3D%22174%22%2F%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M395%20296c103%200%20199%2038%20272%20101%202-8%204-17%205-26-75-61-172-98-277-98-18%200-36%201-53%203-3%208-6%2016-9%2025%2020-3%2041-4%2063-4z%22%2F%3E%3C%2Fsvg%3E"") 8px center no-repeat;text-transform:uppercase;line-height:19px}#barra-brasil #brasil-vlibras{position:absolute;top:0;right:0}#barra-brasil #brasil-vlibras .logo-vlibras{background:url(""data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOSIgaGVpZ2h0PSIyOSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI2Ni4yNTAzOCwtMjMxLjY4NTk0KSI+PHBhdGggZD0ibTI5Mi40IDIzNy44Yy0wLjEgMC0wLjItMC4xLTAuMi0wLjIgMC0xLTEuOC0yLjYtNC4xLTIuNmwtMi41IDAtNC44IDMuNi00LjgtMy42LTIuNSAwYy0yLjQgMC00LjEgMS42LTQuMSAyLjYgMCAwLjEtMC4xIDAuMi0wLjIgMC4yLTAuMSAwLTAuMi0wLjEtMC4yLTAuMiAwLTEuNCAyLjEtMy4xIDQuNi0zLjFsMi40IDAgMC42LTAuNmMwLjEtMC4xIDAuMi0wLjEgMC4zIDBsMy45IDQuNiAzLjktNC42YzAuMS0wLjEgMC4yLTAuMSAwLjMgMGwwLjYgMC42IDIuNCAwYzIuNSAwIDQuNiAxLjcgNC42IDMuMSAwIDAuMS0wLjEgMC4yLTAuMiAwLjJ6bS0zIDEwLjRjLTAuMSAwLjctMC4yIDEtMC4zIDEgMCAwLjEtMC4xIDAuMS0wLjIgMC4xLTAuMSAwLTAuMS0wLjEtMC4xLTAuMiAwIDAgMC4xLTAuMyAwLjItMC45IDAuMS0wLjYtMC4yLTEuMS0wLjItMS4xIDAtMC4xIDAtMC4yIDAuMS0wLjIgMC4xIDAgMC4xIDAgMC4yIDAgMCAwIDAgMCAwIDAuMSAwIDAgMC4zIDAuNiAwLjIgMS4zem0tMSAwLjhjMCAwLjEtMC4xIDAuMS0wLjIgMC4xLTAuMSAwLTAuMS0wLjEtMC4xLTAuMiAwIDAgMC4xLTAuMyAwLjEtMC45IDAtMC42LTAuMy0xLjEtMC4zLTEuMSAwLTAuMSAwLTAuMiAwLjEtMC4yIDAuMSAwIDAuMSAwIDAuMiAwIDAgMCAwIDAgMCAwIDAgMCAwLjMgMC42IDAuMyAxLjMgMCAwLjctMC4xIDEtMC4yIDF6bS0wLjctMC40Yy0wLjMgMS4yLTAuOCAyLjItMC45IDIuNi0wLjIgMC40LTAuMyAwLjktMC4yIDIuMiAwIDEuMyAwIDIuMi0wLjEgMi41IDAgMC4yLTAuMiAwLjMtMC40IDAuMy0wLjIgMC0wLjMtMC4xLTAuNC0wLjQtMC4xLTAuNS0wLjMtMi42LTAuMy0yLjkgMC0wLjItMC4yLTAuNC0wLjMtMC40LTAuMSAwLTAuMiAwLjEtMC4zIDAuNS0wLjIgMC45LTAuNSAzLjEtMC42IDMuNi0wLjEgMC41LTAuMyAwLjYtMC40IDAuNi0wLjEgMC0wLjEgMC0wLjEgMCAwIDAgMCAwIDAgMC0wLjEgMC0wLjQgMC0wLjQtMC40IDAtMC41IDAuNC0zLjUgMC40LTMuOCAwLTAuMiAwLTAuMy0wLjEtMC4zLTAuMSAwLTAuMSAwLjEtMC4yIDAuMi0wLjMgMC40LTEuNyAyLjktMi4xIDMuNy0wLjEgMC4yLTAuMiAwLjItMC40IDAuMi0wLjEgMC0wLjIgMC0wLjMtMC4xLTAuMS0wLjEtMC4zLTAuNC0wLjItMC42IDAuMS0wLjIgMS41LTMuNCAxLjctMy44IDAuMS0wLjMgMC4xLTAuNS0wLjEtMC41LTAuMSAwLTAuMiAwLjEtMC40IDAuMi0wLjUgMC41LTIuNCAyLjUtMi43IDIuNy0wLjEgMC4xLTAuMiAwLjItMC4zIDAuMi0wLjEgMC0wLjItMC4xLTAuMy0wLjItMC4yLTAuMi0wLjItMC40LTAuMS0wLjYgMC4yLTAuMiAyLjYtMy4zIDMtNC4xIDAuNC0wLjcgMS0xLjktMC4yLTEuOS0wLjEgMC0wLjEgMC0wLjIgMC0wLjUgMC0wLjggMC4xLTEuMSAwLjEtMC41IDAtMC43LTAuMS0wLjgtMC4xLTAuMi0wLjEtMC42LTAuMy0wLjUtMC42IDAuMS0wLjIgMC43LTAuMSAxLTAuMiAwLjItMC4xIDAuMi0wLjEgMC4yLTAuMSAwIDAgMS4xLTAuMyAxLjgtMC43IDAuNy0wLjQgMi4zLTEuMSAyLjctMS4xIDAuMiAwIDAuNC0wLjEgMC42LTAuMSAwLjMgMCAwLjYgMCAwLjcgMC4xIDAuMyAwLjEgMC42IDAuOSAyIDEuNSAwIDAgMC42IDAuNiAwLjMgMS44em0tMTEuNyAyLjJjLTAuNC0xLjItMC42LTIuMy0wLjYtMi43LTAuMS0wLjQtMC4zLTAuOS0xLTEuOS0wLjctMS0xLjItMS44LTEuMy0yLjEtMC4xLTAuMiAwLjEtMC41IDAuNC0wLjUgMC4xIDAgMC4yIDAgMC4zIDAuMiAwLjQgMC40IDEuNyAyIDEuOSAyLjIgMC4xIDAuMSAwLjMgMC4yIDAuNCAwLjIgMC4yIDAgMC4yLTAuMSAwLjEtMC42LTAuMy0wLjktMS4zLTIuOS0xLjUtMy4zLTAuMy0wLjcgMC4xLTAuNyAwLjEtMC43IDAgMCAwLjEtMC4xIDAuMi0wLjEgMC4xIDAgMC4yIDAgMC4zIDAuMiAwLjIgMC40IDEuNiAzLjIgMS44IDMuNCAwLjEgMC4xIDAuMiAwLjIgMC4zIDAuMiAwLjEgMCAwLjEtMC4xIDAuMS0wLjMgMC0wLjUtMC4yLTMuMy0wLjMtNC4yIDAtMC4zIDAuMy0wLjUgMC41LTAuNSAwIDAgMCAwIDAgMCAwLjIgMCAwLjQgMC4yIDAuNSAwLjQgMC4xIDAuMiAwLjYgMy43IDAuNyA0LjIgMCAwLjIgMC4yIDAuNCAwLjMgMC40IDAuMSAwIDAuMi0wLjEgMC4zLTAuNCAwLjEtMC43IDAuNy0zLjQgMC43LTMuNyAwLTAuMyAwLjItMC40IDAuNC0wLjQgMCAwIDAuMSAwIDAuMSAwIDAuMiAwIDAuNCAwLjIgMC40IDAuNSAwIDAuMy0wLjMgMy43LTAuMiA0LjgtMC41IDAuMi0xIDAuNC0xLjMgMC40bDAgMCAwIDAtMC4yIDAuMWMwIDAtMC4xIDAtMC4yIDAtMC40IDAtMSAwLTEuMyAwLjYtMC4xIDAuMy0wLjIgMC42LTAuMSAwLjggMC4yIDAuNSAwLjggMC44IDAuOSAwLjkgMCAwIDAgMCAwIDAgMC4yIDAuMSAwLjUgMC4yIDEuMSAwLjIgMC4zIDAgMC42IDAgMS4xLTAuMS0wLjEgMC4yLTAuMiAwLjQtMC4zIDAuNmwtMC4xIDAuMWMtMC4yIDAuMy0wLjggMS4yLTEuOCAyLjUtMC4yIDAtMC4zIDAtMC41IDAtMC4zIDAtMC42IDAtMC45IDAuMSAwIDAtMC44LTAuMS0xLjMtMS4zem0wLjggMi4yYzAgMC4xLTAuMSAwLjEtMC4yIDAuMSAwIDAgMCAwLTAuMSAwIDAgMC0wLjYtMC4yLTEtMC44LTAuNC0wLjYtMC41LTAuOS0wLjUtMC45IDAtMC4xIDAtMC4yIDAuMS0wLjIgMC4xIDAgMC4yIDAgMC4yIDAuMSAwIDAgMC4xIDAuMyAwLjQgMC44IDAuNCAwLjUgMC45IDAuNyAwLjkgMC43IDAuMSAwIDAuMSAwLjEgMC4xIDAuMnptLTAuOSAwLjRjMCAwLjEtMC4xIDAuMS0wLjEgMC4xIDAgMC0wLjEgMC0wLjEgMCAwIDAtMC42LTAuMy0wLjktMC45LTAuNC0wLjYtMC40LTAuOS0wLjQtMSAwLTAuMSAwLjEtMC4yIDAuMS0wLjIgMC4xIDAgMC4yIDAuMSAwLjIgMC4xIDAgMCAwIDAuMyAwLjQgMC44IDAuMyAwLjUgMC44IDAuOCAwLjggMC44IDAuMSAwIDAuMSAwLjEgMC4xIDAuMnptMTQuOS0yMS44LTIwLjIgMGMtMi40IDAtNC40IDItNC40IDQuNGwwIDIwLjJjMCAyLjQgMiA0LjQgNC40IDQuNGwyMC4yIDBjMi40IDAgNC40LTIgNC40LTQuNGwwLTIwLjJjMC0yLjQtMi00LjQtNC40LTQuNCIgZmlsbD0iIzFjNGY5YyIvPjwvZz48L3N2Zz4K"") 8px center no-repeat;position:absolute;top:0;right:0;width:43px;height:32px;display:block}#barra-brasil #brasil-vlibras .link-vlibras{height:0;top:32px;transition:0.1s;width:166px !important;display:block;border:2px solid #dfdfdf;color:#606060;visibility:hidden;position:relative}#barra-brasil #brasil-vlibras .link-vlibras a:hover,#barra-brasil #brasil-vlibras .link-vlibras a:focus,#barra-brasil #brasil-vlibras .link-vlibras a:active{visibility:visible;background:#f1f1f1;z-index:8}#barra-brasil #brasil-vlibras .logo-vlibras:hover+.link-vlibras,#barra-brasil #brasil-vlibras .logo-vlibras:active+.link-vlibras,#barra-brasil #brasil-vlibras .logo-vlibras:focus+.link-vlibras,#barra-brasil #brasil-vlibras .link-vlibras:hover,#barra-brasil #brasil-vlibras .link-vlibras:active,#barra-brasil #brasil-vlibras .link-vlibras:focus{width:132px !important;height:50px !important;display:inline-table;border:2px solid #dfdfdf;padding:10px 24px 10px 24px;visibility:visible;background:#f1f1f1;z-index:8;line-height:1.75em}#barra-brasil .eselo{position:absolute;top:0;right:44px;display:block;font-size:1.25em;color:blue}#barra-brasil .acesso-info{position:absolute;left:130px}#barra-brasil .list{position:absolute;top:0;right:40px;width:auto}#barra-brasil .list-eselo{right:90px !important}#barra-brasil .list .first{border-left:2px solid #dfdfdf}#barra-brasil .list-item{display:inline-block;height:32px;line-height:32px;border-right:2px solid #dfdfdf}#barra-brasil .list-item a{padding:8px 15px 8px 13px}#barra-brasil .link-barra{color:#606060}#barra-brasil #menu-icon{position:absolute;top:3px;border-top:15px double #606060;border-bottom:5px solid #606060;display:none;width:20px;right:5px}@media only screen and (max-width: 959px){#barra-brasil #menu-icon{display:inline-block;padding:5px 3px 0px 3px}#barra-brasil .list .first{border-left:1px solid #dfdfdf}#barra-brasil nav:hover #menu-icon,#barra-brasil nav:active #menu-icon,#barra-brasil nav:focus #menu-icon{background-color:#DDD}body.contraste #barra-brasil nav:hover #menu-icon,body.contraste #barra-brasil nav:active #menu-icon,body.contraste #barra-brasil nav:focus #menu-icon{background-color:#606060 !important}#barra-brasil ul.list,#barra-brasil ul.list:active,#barra-brasil ul.list:focus{overflow:hidden;height:0px;transition:0.3s;padding-top:32px;width:auto;position:absolute;z-index:9}#barra-brasil .list-item{display:block;text-align:center;height:30px;background:#EEE;border:1px solid #dfdfdf}#barra-brasil .list-item a{padding:8px 30px 8px 28px}body.contraste #barra-brasil .list-item{background:#000 !important}body.contraste #menu-icon{border-top:15px double #fff !important;border-bottom:5px solid #fff !important}#barra-brasil .list a:active li,#barra-brasil .list a:focus li,#barra-brasil .list a:hover li{background:#DDD}body.contraste #barra-brasil .list a:active li,body.contraste #barra-brasil .list a:focus li,body.contraste #barra-brasil .list a:hover li{background:#606060 !important}#barra-brasil nav:active ul.list,#barra-brasil nav:focus ul.list,#barra-brasil nav:hover ul.list{height:165px;transition:0.5s}div#wrapper-barra-brasil{overflow:visible}}@media screen and (min-width: 960px){#wrapper-barra-brasil{width:960px}}@media print{#barra-brasil .list{display:none}#barra-brasil .acesso-info .link-barra:after{content:"" Barra GovBr""}}</style><style media=""all"" type=""text/css"">div#wrapper-footer-brasil{position:relative;overflow:hidden;margin:0 auto;width:auto;padding:0 20px;max-width:960px}#wrapper-footer-brasil .logo-acesso-footer{float:left;width:117px;background:url(""data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20117%2049%22%20height%3D%2249%22%20width%3D%22117%22%20shape-rendering%3D%22geometricPrecision%22%20text-rendering%3D%22geometricPrecision%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%3C!%5BCDATA%5B.a%20%7Bfont%3A%20normal%20bold%2011px%20Open%20Sans%2C%20sans-serif%3B%7D%5D%5D%3E%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%2223%22%20r%3D%2222%22%20fill%3D%22%23f6a800%22%2F%3E%3Cpath%20style%3D%22stroke%3A%23f6a800%3Bstroke-width%3A4%3Bstroke-linejoin%3Around%3B%22%20d%3D%22m%204%2C43%203%2C-6%204%2C3%20z%22%2F%3E%3Ccircle%20r%3D%224.5%22%20cy%3D%2211%22%20cx%3D%2222%22%20fill%3D%22%2300692c%22%2F%3E%3Cg%20fill%3D%22%23fff%22%3E%3Ctext%20x%3D%2248%22%20y%3D%2222%22%3E%3Ctspan%20class%3D%22a%22%20y%3D%2218%22%3EAcesso%20%C3%A0%3C%2Ftspan%3E%3Ctspan%20class%3D%22a%22%20x%3D%2248%22%20y%3D%2231%22%3EInforma%C3%A7%C3%A3o%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3Cpath%20style%3D%22stroke%3A%2300692c%3Bstroke-width%3A9%3Bstroke-linecap%3Around%3B%22%20d%3D%22m%2022%2C23%20v%2013%22%2F%3E%3C%2Fsvg%3E"") center no-repeat;height:49px}body.contraste #footer-brasil{background:#000 !important}@media screen and (min-width: 960px){#wrapper-footer-brasil{width:960px}}@media print{#wrapper-footer-brasil{border-top:2px solid #dfdfdf}#wrapper-footer-brasil:before{content:""Barra GovBr"";color:#606060;font-size:12px;font-family:""Open Sans"",Arial,Helvetica,sans-serif}}</style><style>@charset ""UTF-8"";
+[vp] .vpw-vlibras-span {
+  font-family: ""Open Sans"", sans-serif; }
+
+[vp] .vpw-settings {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 40px); }
+  [vp] .vpw-settings .vpw-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    background-color: #003f86;
+    color: white; }
+    [vp] .vpw-settings .vpw-content .vpw-flag {
+      position: absolute;
+      height: 24px;
+      margin-top: -12px;
+      margin-left: 4px;
+      border: none;
+      border-radius: 5px; }
+    [vp] .vpw-settings .vpw-content > .vpw-bar {
+      position: absolute;
+      width: 100%;
+      height: 54px; }
+      [vp] .vpw-settings .vpw-content > .vpw-bar .vpw-title {
+        position: absolute;
+        top: 16px;
+        left: 50px;
+        color: #6481b8;
+        font-size: 12px;
+        font-weight: bold; }
+    [vp] .vpw-settings .vpw-content > ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0 11%;
+      font-family: ""Open Sans"", sans-serif; }
+      [vp] .vpw-settings .vpw-content > ul li {
+        position: relative;
+        padding: 19px 0;
+        color: white;
+        border-bottom: 0; }
+        [vp] .vpw-settings .vpw-content > ul li .vpw-name {
+          position: absolute;
+          left: 0px;
+          margin-top: -10px;
+          font-size: 14px; }
+        [vp] .vpw-settings .vpw-content > ul li .vpw-percent {
+          float: right;
+          margin-top: -7px;
+          font-size: 11px;
+          color: rgba(255, 255, 255, 0.6);
+          width: 30px;
+          margin-right: -6px;
+          margin-left: -4px;
+          text-align: center; }
+        [vp] .vpw-settings .vpw-content > ul li .arrow-right-opac,
+        [vp] .vpw-settings .vpw-content > ul li .arrow-left-opac {
+          margin-top: -13px;
+          width: 25px;
+          float: right; }
+      [vp] .vpw-settings .vpw-content > ul li:hover {
+        color: #67c8d5; }
+      [vp] .vpw-settings .vpw-content > ul .vpw-position {
+        display: none; }
+      [vp] .vpw-settings .vpw-content > ul .vpw-opacity {
+        display: none; }
+      [vp] .vpw-settings .vpw-content > ul .vpw-localism {
+        padding: 24px 0; }
+        [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-flag {
+          right: 27px;
+          height: 24px; }
+        [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-abbrev {
+          position: absolute;
+          right: 0px;
+          margin-top: -9px;
+          font-size: 14px;
+          font-weight: bold; }
+        [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-arrow {
+          position: absolute;
+          right: 16px;
+          height: 13px;
+          margin-top: -6px; }
+    [vp] .vpw-settings .vpw-content > .vpw-localism {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 7;
+      background-color: white;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 2px; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism:not(.active) {
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: visibility 0s, opacity 0.3s;
+        transition: visibility 0s, opacity 0.3s; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism.active {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transition: visibility 0s, opacity 0.3s;
+        transition: visibility 0s, opacity 0.3s; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-name {
+        position: absolute;
+        margin-top: -7px;
+        margin-left: 9px;
+        font-size: 14px;
+        font-weight: bold; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-national {
+        position: relative;
+        width: calc(33.33%);
+        margin-top: 6px;
+        padding-top: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-national .vpw-name {
+          color: black;
+          position: relative; }
+        [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-national .vpw-flag {
+          position: relative; }
+      [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        box-sizing: content-box;
+        padding: 0px 8px 0px 8px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%); }
+        [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions {
+          display: inline-block;
+          position: relative;
+          width: 33.33%;
+          margin-bottom: 1px;
+          padding: 6px 0;
+          margin-top: 1%;
+          cursor: pointer;
+          opacity: 0.5;
+          -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions.selected, [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions:hover {
+            opacity: 1;
+            -webkit-transition: opacity 0.3s;
+            transition: opacity 0.3s; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions .vpw-cont {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions > .vpw-cont .vpw-flag {
+            position: relative;
+            margin: 0; }
+          [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions > .vpw-container-regions > .vpw-cont .vpw-name {
+            position: relative;
+            margin: 0 10px 0;
+            color: grey; }
+    [vp] .vpw-settings .vpw-content .vpw-vlibras-logo {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      z-index: 6; }
+      [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-vlibras-span {
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        bottom: 15%;
+        align-items: center;
+        font-size: 14px; }
+      [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-logo {
+        width: 100%; }
+  [vp] .vpw-settings > .vpw-wall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5; }
+  [vp] .vpw-settings.active {
+    display: block; }
+    [vp] .vpw-settings.active .vpw-content {
+      left: 0;
+      -webkit-transition: left 0.3s;
+      transition: left 0.3s; }
+    [vp] .vpw-settings.active .vpw-wall {
+      visibility: visible; }
+  [vp] .vpw-settings:not(.active) {
+    display: none; }
+    [vp] .vpw-settings:not(.active) .vpw-content {
+      left: 0;
+      visibility: hidden;
+      -webkit-transition: left 0.3s;
+      transition: left 0.3s; }
+    [vp] .vpw-settings:not(.active) .vpw-wall {
+      visibility: hidden; }
+  [vp] .vpw-settings .vpw-clickable {
+    cursor: pointer; }
+    [vp] .vpw-settings .vpw-clickable:not(:hover) {
+      background-color: inherit;
+      -webkit-transition: 0.12s background-color;
+      transition: 0.12s background-color; }
+    [vp] .vpw-settings .vpw-clickable:hover {
+      -webkit-transition: 0.2s background-color;
+      transition: 0.2s background-color; }
+
+[vp] .vpw-controls-dictionary:not(.vpw-loading-dictionary):before {
+  content: ""Dicionário"";
+  font-size: 14px;
+  position: absolute;
+  margin-top: -11px; }
+
+[vp] .vpw-controls-dictionary.vpw-loading-dictionary {
+  min-width: 22px;
+  min-height: 22px;
+  margin-top: -17px;
+  position: absolute;
+  border-left: 3px solid rgba(255, 255, 255, 0.2);
+  border-top: 3px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 3px solid white;
+  border-right: 3px solid rgba(255, 255, 255, 0.6);
+  border-style: inset;
+  border-radius: 50%;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 0.8s linear infinite; }
+
+/*@media (min-width: 600px) {
+  .vpw-settings {
+    &.active {
+      visibility: visible;
+      left: 0;
+
+      -webkit-transition: visibility 0s, left 0.3s;
+      transition: visibility 0s, left 0.3s;
+    }
+
+    &:not(.active) {
+      visibility: hidden;
+      left: -220px;
+
+      -webkit-transition: visibility 0.3s, left 0.3s;
+      transition: visibility 0.3s, left 0.3s;
+    }
+
+    .vpw-content {
+      left: -220px;
+      width: 220px;
+
+
+      .vpw-bar {
+        height: 66px;
+
+
+        .vpw-btn-back {
+          width: 30px;
+          height: 30px;
+          margin-top: 18px;
+          margin-left: 18px;
+        }
+
+        .vpw-title {
+          top: 25px;
+          left: 60px;
+          font-size: 1em;
+        }
+      }
+    }
+  }
+}*/
+</style><style>[vp] {
+  /* Hide default HTML checkbox */
+  /* The slider */
+  /* Rounded sliders */ }
+  [vp] .vpw-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 21px;
+    float: right;
+    margin-top: -12px; }
+  [vp] .vpw-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0; }
+  [vp] .vpw-slider-check {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3; }
+  [vp] .vpw-slider-check:before {
+    position: absolute;
+    content: """";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white; }
+  [vp] input:checked + .vpw-slider-check {
+    background-color: #2196F3; }
+  [vp] input:focus + .vpw-slider-check {
+    box-shadow: 0 0 1px #ccc; }
+  [vp] input:checked + .vpw-slider-check:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px); }
+  [vp] .vpw-slider-check.vpw-round {
+    border-radius: 34px; }
+  [vp] .vpw-slider-check.vpw-round:before {
+    border-radius: 50%;
+    top: -3px; }
+</style><style>[vp] .vpw-settings-btn {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  cursor: pointer; }
+  [vp] .vpw-settings-btn .vpw-settings-btn-menu {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 18px;
+    left: 20px; }
+    [vp] .vpw-settings-btn .vpw-settings-btn-menu.active {
+      display: block; }
+  [vp] .vpw-settings-btn .vpw-settings-btn-close {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px; }
+</style><style>[vp] .vpw-info-screen {
+  position: relative;
+  padding: 1em;
+  width: 100%;
+  height: calc(100% - 40px);
+  z-index: 4;
+  background-color: white;
+  color: black;
+  font-family: ""Open Sans"", sans-serif;
+  text-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  font-size: 11px;
+  display: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  [vp] .vpw-info-screen.active {
+    display: -webkit-flex;
+    display: flex; }
+  [vp] .vpw-info-screen .vpw-arrow {
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    visibility: hidden; }
+  [vp] .vpw-info-screen .vpw-arrow.active {
+    visibility: visible; }
+  [vp] .vpw-info-screen #vpw-info-tabset {
+    position: relative;
+    top: 0;
+    flex-grow: 4;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    -webkit-align-items: center; }
+  [vp] .vpw-info-screen #vpw-info-main {
+    max-width: 600px;
+    font-family: ""Open Sans"", sans-serif;
+    flex-direction: column;
+    -webkit-flex-direction: column; }
+    [vp] .vpw-info-screen #vpw-info-main.active {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center; }
+  [vp] .vpw-info-screen #vpw-info-logo img {
+    height: 90px; }
+  [vp] .vpw-info-screen #vpw-info-realizadores {
+    height: 100%;
+    min-width: 230px;
+    width: 50%;
+    flex-direction: column;
+    align-items: stretch;
+    -webkit-flex-direction: column;
+    -webkit-align-items: stretch; }
+    [vp] .vpw-info-screen #vpw-info-realizadores #vpw-realiz {
+      font-size: 20px; }
+    [vp] .vpw-info-screen #vpw-info-realizadores.active {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center; }
+    [vp] .vpw-info-screen #vpw-info-realizadores .vpw-siz {
+      max-width: 55% !important; }
+    [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo {
+      margin-top: -2px;
+      margin: 0.5em 0.35em;
+      min-width: 10%;
+      max-width: 29%;
+      max-height: 15vh; }
+      [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo .vpw-short-ver {
+        max-width: none;
+        min-height: 16px; }
+    [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group {
+      display: flex;
+      padding: 0.5% 2%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      -webkit-flex-direction: row;
+      -webkit-flex-wrap: wrap;
+      -webkit-align-items: center;
+      -webkit-justify-content: space-around;
+      line-height: 1.1; }
+      [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group .p-separator {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 118px; }
+      [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group .format-text {
+        margin: 0px; }
+  [vp] .vpw-info-screen .vpw-info-tab {
+    flex-grow: 3;
+    -webkit-flex-grow: 3;
+    display: none; }
+    [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label {
+      position: absolute;
+      top: 0%;
+      font-size: 16px;
+      font-family: ""Open Sans"", sans-serif; }
+    [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label-two {
+      font-size: 16px;
+      font-family: ""Open Sans"", sans-serif;
+      margin-top: 10px; }
+  [vp] .vpw-info-screen .vpw-info-tab.active {
+    display: block; }
+  [vp] .vpw-info-screen #vpw-info-meta p {
+    margin: 0.5em 0 0; }
+  [vp] .vpw-info-screen #vpw-info-meta a {
+    text-decoration: none; }
+  [vp] .vpw-info-screen .vpw-info-bullet {
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    content: """"; }
+  [vp] .vpw-info-screen #vpw-info-tab-bullets {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    cursor: pointer; }
+  [vp] .vpw-info-screen .vpw-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 6px;
+    z-index: 4; }
+    [vp] .vpw-info-screen .vpw-close-btn img.icon {
+      width: 34px;
+      height: 34px; }
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+  [vp] #vpw-info-realizadores .vpw-logo {
+    margin: 0.5em 0.35em;
+    min-width: 10%;
+    max-width: 50%;
+    max-height: 18vh; } }
+
+@media only screen and (max-height: 360px) {
+  [vp] #vpw-info-main {
+    font-size: 0.84em; } }
+</style><style>[vp] .vpw-dictionary {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: calc(100% - 40px);
+  min-width: 300px;
+  min-height: 300px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white; }
+  [vp] .vpw-dictionary.active {
+    display: block; }
+  [vp] .vpw-dictionary .vpw-panel {
+    position: relative;
+    height: 114px;
+    background-color: white; }
+    [vp] .vpw-dictionary .vpw-panel .vpw-bar {
+      text-align: center;
+      padding-top: 20px; }
+    [vp] .vpw-dictionary .vpw-panel .vpw-search {
+      position: absolute;
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 20px; }
+      [vp] .vpw-dictionary .vpw-panel .vpw-search input {
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px 10px 10px 10px;
+        border-radius: 6px;
+        border: 1px solid #DDD;
+        outline: none; }
+        [vp] .vpw-dictionary .vpw-panel .vpw-search input:focus {
+          border: 1px solid #00ddf9; }
+      [vp] .vpw-dictionary .vpw-panel .vpw-search .vpw-icon {
+        display: block;
+        position: relative; }
+        [vp] .vpw-dictionary .vpw-panel .vpw-search .vpw-icon img {
+          position: absolute;
+          height: 24px;
+          width: 24px;
+          top: 6px;
+          right: 7px; }
+  [vp] .vpw-dictionary .vpw-dict-container {
+    position: absolute;
+    width: 80%;
+    height: 68%;
+    left: 50%;
+    transform: translateX(-50%); }
+    [vp] .vpw-dictionary .vpw-dict-container ul {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-y: scroll;
+      list-style-type: none; }
+      [vp] .vpw-dictionary .vpw-dict-container ul::-webkit-scrollbar {
+        width: 8px; }
+      [vp] .vpw-dictionary .vpw-dict-container ul::-webkit-scrollbar-track {
+        background-color: #DDD; }
+      [vp] .vpw-dictionary .vpw-dict-container ul::-webkit-scrollbar-thumb {
+        background-color: #BCBCBC; }
+      [vp] .vpw-dictionary .vpw-dict-container ul li {
+        font-size: 14px;
+        cursor: pointer; }
+        [vp] .vpw-dictionary .vpw-dict-container ul li:hover {
+          background-color: #EAEAEA;
+          -webkit-transition: brackground-color 0.3s;
+          transition: brackground-color 0.4s; }
+        [vp] .vpw-dictionary .vpw-dict-container ul li.margin {
+          height: 114px; }
+        [vp] .vpw-dictionary .vpw-dict-container ul li:not(.margin) {
+          padding: 9px 10px 9px 10px; }
+</style><style>/*! nouislider - 8.5.1 - 2016-04-24 16:00:30 */
+.noUi-target, .noUi-target * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-touch-action: none;
+  touch-action: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.noUi-target {
+  position: relative;
+  direction: ltr; }
+
+.noUi-base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1; }
+
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+.noUi-handle {
+  position: relative;
+  z-index: 1; }
+
+.noUi-stacking .noUi-handle {
+  z-index: 10; }
+
+.noUi-state-tap .noUi-origin {
+  -webkit-transition: left .3s,top .3s;
+  transition: left .3s,top .3s; }
+
+.noUi-state-drag * {
+  cursor: inherit !important; }
+
+.noUi-base, .noUi-handle {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.noUi-horizontal {
+  height: 18px; }
+
+.noUi-horizontal .noUi-handle {
+  width: 34px;
+  height: 28px;
+  left: -17px;
+  top: -6px; }
+
+.noUi-vertical {
+  width: 18px; }
+
+.noUi-vertical .noUi-handle {
+  width: 28px;
+  height: 34px;
+  left: -6px;
+  top: -17px; }
+
+.noUi-background {
+  background: #FAFAFA;
+  box-shadow: inset 0 1px 1px #f0f0f0; }
+
+.noUi-connect {
+  background: #3FB8AF;
+  box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45);
+  -webkit-transition: background 450ms;
+  transition: background 450ms; }
+
+.noUi-origin {
+  border-radius: 2px; }
+
+.noUi-target {
+  border-radius: 4px;
+  border: 1px solid #D3D3D3;
+  box-shadow: inset 0 1px 1px #F0F0F0,0 3px 6px -5px #BBB; }
+
+.noUi-target.noUi-connect {
+  box-shadow: inset 0 0 3px rgba(51, 51, 51, 0.45), 0 3px 6px -5px #BBB; }
+
+.noUi-draggable {
+  cursor: w-resize; }
+
+.noUi-vertical .noUi-draggable {
+  cursor: n-resize; }
+
+.noUi-handle {
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #FFF;
+  cursor: default;
+  box-shadow: inset 0 0 1px #FFF,inset 0 1px 7px #EBEBEB,0 3px 6px -3px #BBB; }
+
+.noUi-active {
+  box-shadow: inset 0 0 1px #FFF,inset 0 1px 7px #DDD,0 3px 6px -3px #BBB; }
+
+.noUi-handle:after, .noUi-handle:before {
+  content: """";
+  display: block;
+  position: absolute;
+  height: 14px;
+  width: 1px;
+  background: #E8E7E6;
+  left: 14px;
+  top: 6px; }
+
+.noUi-handle:after {
+  left: 17px; }
+
+.noUi-vertical .noUi-handle:after, .noUi-vertical .noUi-handle:before {
+  width: 14px;
+  height: 1px;
+  left: 6px;
+  top: 14px; }
+
+.noUi-vertical .noUi-handle:after {
+  top: 17px; }
+
+[disabled] .noUi-connect, [disabled].noUi-connect {
+  background: #B8B8B8; }
+
+[disabled] .noUi-handle, [disabled].noUi-origin {
+  cursor: not-allowed; }
+
+.noUi-pips, .noUi-pips * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.noUi-pips {
+  position: absolute;
+  color: #999; }
+
+.noUi-value {
+  position: absolute;
+  text-align: center; }
+
+.noUi-value-sub {
+  color: #ccc;
+  font-size: 10px; }
+
+.noUi-marker {
+  position: absolute;
+  background: #CCC; }
+
+.noUi-marker-large, .noUi-marker-sub {
+  background: #AAA; }
+
+.noUi-pips-horizontal {
+  padding: 10px 0;
+  height: 80px;
+  top: 100%;
+  left: 0;
+  width: 100%; }
+
+.noUi-value-horizontal {
+  -webkit-transform: translate3d(-50%, 50%, 0);
+  transform: translate3d(-50%, 50%, 0); }
+
+.noUi-marker-horizontal.noUi-marker {
+  margin-left: -1px;
+  width: 2px;
+  height: 5px; }
+
+.noUi-marker-horizontal.noUi-marker-sub {
+  height: 10px; }
+
+.noUi-marker-horizontal.noUi-marker-large {
+  height: 15px; }
+
+.noUi-pips-vertical {
+  padding: 0 10px;
+  height: 100%;
+  top: 0;
+  left: 100%; }
+
+.noUi-value-vertical {
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  padding-left: 25px; }
+
+.noUi-marker-vertical.noUi-marker {
+  width: 5px;
+  height: 2px;
+  margin-top: -1px; }
+
+.noUi-marker-vertical.noUi-marker-sub {
+  width: 10px; }
+
+.noUi-marker-vertical.noUi-marker-large {
+  width: 15px; }
+
+.noUi-tooltip {
+  display: block;
+  position: absolute;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  background: #fff;
+  padding: 5px;
+  text-align: center; }
+
+.noUi-horizontal .noUi-handle-lower .noUi-tooltip {
+  top: -32px; }
+
+.noUi-horizontal .noUi-handle-upper .noUi-tooltip {
+  bottom: -32px; }
+
+.noUi-vertical .noUi-handle-lower .noUi-tooltip {
+  left: 120%; }
+
+.noUi-vertical .noUi-handle-upper .noUi-tooltip {
+  right: 120%; }
+</style><style>[vp] .vpw-controls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center;
+  width: calc(100% - 10px);
+  height: 60px;
+  background-size: 100% 100%;
+  background: white;
+  width: 100%; }
+  [vp] .vpw-controls .vpw-controls-subtitles, [vp] .vpw-controls .vpw-controls-slider {
+    margin: 0 9px;
+    cursor: pointer; }
+  [vp] .vpw-controls .vpw-controls-play .vpw-component-play {
+    display: block;
+    margin: 0 8.5px;
+    cursor: pointer; }
+  [vp] .vpw-controls .vpw-controls-play .vpw-component-pause {
+    display: none; }
+  [vp] .vpw-controls .vpw-controls-play .vpw-component-restart {
+    display: none; }
+  [vp] .vpw-controls.vpw-playing .vpw-controls-play .vpw-component-play {
+    display: none; }
+  [vp] .vpw-controls.vpw-playing .vpw-controls-play .vpw-component-pause {
+    display: block;
+    margin: 0 11px;
+    cursor: pointer; }
+  [vp] .vpw-controls.vpw-playing .vpw-controls-play .vpw-component-restart {
+    display: none; }
+  [vp] .vpw-controls.vpw-stopped .vpw-controls-play .vpw-component-play {
+    display: none; }
+  [vp] .vpw-controls.vpw-stopped .vpw-controls-play .vpw-component-pause {
+    display: none; }
+  [vp] .vpw-controls.vpw-stopped .vpw-controls-play .vpw-component-restart {
+    display: block;
+    margin: 0 2px;
+    cursor: pointer; }
+  [vp] .vpw-controls.vpw-subtitles .vpw-controls-subtitles .vpw-legenda-habilitar {
+    display: block; }
+  [vp] .vpw-controls.vpw-subtitles .vpw-controls-subtitles .vpw-legenda-desabilitar {
+    display: none; }
+  [vp] .vpw-controls .vpw-controls-subtitles .vpw-legenda-habilitar {
+    display: none; }
+  [vp] .vpw-controls .vpw-controls-subtitles .vpw-legenda-desabilitar {
+    display: block; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */ }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */ } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */ }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */ } }
+
+[vp] .vpw-speed-default {
+  border: 1px solid grey;
+  border-radius: 3px 3px 3px 3px;
+  padding: 3px 4px;
+  height: 100%;
+  color: grey;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif; }
+
+[vp] .vpw-img-default {
+  display: none;
+  padding: 2px;
+  padding-left: 2.2px;
+  cursor: pointer; }
+
+[vp] .vpw-border-default {
+  display: none;
+  border: 1px solid #999999;
+  border-radius: 0px 0px 3px 3px; }
+
+[vp] .vpw-elem-speed {
+  display: none;
+  position: absolute;
+  bottom: 22px;
+  cursor: pointer; }
+
+[vp] .vpw-block-speed {
+  list-style-type: none;
+  background-color: #003F86;
+  color: white;
+  font-size: 10px;
+  width: 25.5px;
+  text-align: center; }
+
+[vp] .vpw-block-speed:hover {
+  color: #67C8D5; }
+
+[vp] .vpw-controls-speed {
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+[vp] .vpw-controls-speed-number {
+  width: 25.5px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif; }
+
+[vp] .vpw-block-speed-3 {
+  border-radius: 5px 5px 0px 0px; }
+
+[vp] .vpw-controls-slider {
+  -webkit-appearance: none;
+  width: 50%;
+  margin: 2.5px 0;
+  height: 7px;
+  background-color: transparent; }
+  [vp] .vpw-controls-slider .vpw-slider {
+    width: 100%;
+    height: 7px; }
+    [vp] .vpw-controls-slider .vpw-slider.noUi-target {
+      box-shadow: none;
+      border: 0; }
+    [vp] .vpw-controls-slider .vpw-slider.noUi-connect {
+      background-color: #003F86; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-background {
+      background-color: #B8B8B8;
+      box-shadow: none; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-origin {
+      border-radius: 1px; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-handle {
+      width: 0px;
+      height: 0px;
+      left: -8px;
+      top: -8px;
+      border-radius: 50%; }
+    [vp] .vpw-controls-slider .vpw-slider .noUi-handle:after, [vp] .vpw-controls-slider .vpw-slider .noUi-handle:before {
+      display: none; }
+</style><style>[vp] .vpw-message-box {
+  top: -5em;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  font-size: 13px;
+  word-wrap: break-word;
+  color: #000;
+  opacity: 0;
+  -moz-transition: all .15s ease .15s;
+  -webkit-transition: all .15s ease .15s;
+  transition: all .15s ease .15s;
+  -moz-box-shadow: 0px 2px 5px #888888;
+  -webkit-box-shadow: 0px 2px 5px #888888;
+  box-shadow: 0px 2px 5px #888888;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; }
+  [vp] .vpw-message-box.active {
+    top: 0;
+    opacity: 1; }
+  [vp] .vpw-message-box.info {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box.warning {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box.success {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box.default {
+    background-color: #003F86;
+    color: white; }
+  [vp] .vpw-message-box a {
+    color: inherit; }
+</style><style>[vp] .vpw-box {
+  width: calc(100%);
+  height: 40px;
+  font-size: 1em;
+  color: #000;
+  opacity: 1;
+  position: relative;
+  background-color: #003F86;
+  color: #ffffff;
+  background-size: 100% 100%;
+  z-index: 2; }
+  [vp] .vpw-box .vpw-mes {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif; }
+</style><style>[vp] .vpw-btn-close {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 7;
+  cursor: pointer; }
+  [vp] .vpw-btn-close.active {
+    display: block; }
+  [vp] .vpw-btn-close .vpw-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 37.92px;
+    height: 37.92px;
+    right: 5px; }
+</style><style>[vp] [vp-rate-button] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 60px;
+  z-index: 2;
+  visibility: hidden;
+  max-width: 0;
+  opacity: 0;
+  transition: max-width 0s, visibility 0s, opacity 0.4s; }
+  [vp] [vp-rate-button] .vp-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    margin-bottom: 20px;
+    z-index: 1;
+    cursor: pointer; }
+    [vp] [vp-rate-button] .vp-button img {
+      width: 43px;
+      margin-right: -13px;
+      margin-bottom: -13px;
+      max-width: none; }
+  [vp] [vp-rate-button].vp-enabled {
+    z-index: 2;
+    visibility: visible;
+    max-width: 100%;
+    opacity: 1; }
+</style><style>[vp] [vp-rate-box] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 68px;
+  overflow: hidden;
+  z-index: 2; }
+  [vp] [vp-rate-box] .vp-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.96);
+    max-height: 0;
+    transform: translateY(69px);
+    transition: max-height 0s, transform 0.4s linear 0.05s; }
+    [vp] [vp-rate-box] .vp-container .vp-text {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #003f86; }
+    [vp] [vp-rate-box] .vp-container .vp-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 10px; }
+      [vp] [vp-rate-box] .vp-container .vp-buttons .vp-button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 13px;
+        font-weight: bold;
+        color: #545454;
+        cursor: pointer; }
+        [vp] [vp-rate-box] .vp-container .vp-buttons .vp-button:not(:last-child) {
+          margin-right: 22px; }
+        [vp] [vp-rate-box] .vp-container .vp-buttons .vp-button img {
+          height: 22px;
+          margin-right: 6px; }
+  [vp] [vp-rate-box].vp-enabled {
+    z-index: 4; }
+    [vp] [vp-rate-box].vp-enabled .vp-container {
+      max-height: 100%;
+      transform: translateY(0);
+      transition: transform 0.4s, max-height 0s linear 0.4s; }
+</style><style>[vp] [vp-suggestion-button] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+  bottom: 68px;
+  z-index: 2; }
+  [vp] [vp-suggestion-button] .vp-bounderies {
+    width: 100%;
+    overflow: hidden; }
+    [vp] [vp-suggestion-button] .vp-bounderies .vp-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: rgba(255, 255, 255, 0.96);
+      z-index: 1;
+      transform: translateY(69px);
+      transition: transform 0.4s;
+      transition-delay: 0.4s; }
+      [vp] [vp-suggestion-button] .vp-bounderies .vp-container .vp-open-screen-button {
+        margin-bottom: 16px; }
+  [vp] [vp-suggestion-button] .vp-button-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.4s; }
+    [vp] [vp-suggestion-button] .vp-button-container .vp-close-button {
+      position: absolute;
+      bottom: -13px; }
+  [vp] [vp-suggestion-button].vp-enabled {
+    z-index: 4; }
+    [vp] [vp-suggestion-button].vp-enabled .vp-container {
+      transform: translateY(0);
+      transition-delay: 0s; }
+    [vp] [vp-suggestion-button].vp-enabled .vp-button-container {
+      opacity: 1;
+      transition-delay: 0.4s; }
+</style><style>[vp] [vp-suggestion-screen] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: white;
+  z-index: 3;
+  left: 100%;
+  transition: left 0.4s ease-in;
+  /* Track */
+  /* Handle */
+  /* Handle on hover */ }
+  [vp] [vp-suggestion-screen] ::-webkit-scrollbar {
+    width: 10px; }
+  [vp] [vp-suggestion-screen] ::-webkit-scrollbar-track {
+    background: #d1d1d1f1 !important; }
+  [vp] [vp-suggestion-screen] ::-webkit-scrollbar-thumb {
+    background: #8b8b99; }
+  [vp] [vp-suggestion-screen] ::-webkit-scrollbar-thumb:hover {
+    background: #555; }
+  [vp] [vp-suggestion-screen] .vp-dropdown-suggest {
+    display: none;
+    font-family: ""Open Sans"", sans-serif; }
+    [vp] [vp-suggestion-screen] .vp-dropdown-suggest.vp-enabled {
+      display: block;
+      position: absolute;
+      height: 54px;
+      width: 120px;
+      overflow: hidden auto;
+      color: white;
+      background: #003f86;
+      border-radius: 3px;
+      font-weight: 600;
+      list-style-type: none;
+      padding: 0px; }
+  [vp] [vp-suggestion-screen] .vp-dropdown-item {
+    cursor: pointer;
+    font-size: 12px;
+    margin: 5px 0px -4px 6px; }
+    [vp] [vp-suggestion-screen] .vp-dropdown-item:hover {
+      color: #80b6f3; }
+  [vp] [vp-suggestion-screen] .vp-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #003f86; }
+  [vp] [vp-suggestion-screen] .vp-text {
+    display: none;
+    flex: 1;
+    align-self: stretch;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px 10px 6px;
+    font-size: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: #efeff2; }
+  [vp] [vp-suggestion-screen] .vp-close-button {
+    margin-top: 8px; }
+  [vp] [vp-suggestion-screen].vp-enabled {
+    left: 0;
+    transition: left 0.4s ease-out 0.8s; }
+</style><style>[vp] [vp-change-avatar] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 2;
+  visibility: hidden;
+  max-width: 100%;
+  opacity: 1;
+  transition: max-width 0s, visibility 0s, opacity 0.4s;
+  left: 13px;
+  top: 50px; }
+  [vp] [vp-change-avatar] .vp-button-change-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.45); }
+    [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-icon {
+      width: 22px;
+      margin-right: 1px;
+      filter: brightness(0) invert(1);
+      display: none; }
+    [vp] [vp-change-avatar] .vp-button-change-avatar .active {
+      display: block; }
+  [vp] [vp-change-avatar].vp-disabled {
+    visibility: visible; }
+</style><style>[vp] [vp-blue-button] {
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #003f86;
+  cursor: pointer;
+  margin: 10px 5px;
+  align-self: center; }
+
+[vp] [vp-visualize-signal-button] {
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: #003f86;
+  background: white;
+  border: 1px solid #003f86;
+  cursor: pointer;
+  margin: 10px 5px;
+  align-self: center; }
+
+[vp] [vp-sugestion-area] {
+  display: flex; }
+
+[vp] [vp-close-button] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  background-color: #b3b3b3;
+  cursor: pointer; }
+  [vp] [vp-close-button] img {
+    width: 100%; }
+
+#gameContainer {
+  background: #ebebeb !important; }
+</style><style>[vw] [vw-access-button] {
+  display: none;
+  width: 140px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 0px 0px -100px;
+  max-width: none; }
+  [vw] [vw-access-button].active {
+    display: block; }
+  [vw] [vw-access-button] .access-button {
+    width: 27%;
+    float: right; }
+  [vw] [vw-access-button] span {
+    font-size: 13px;
+    color: #004088; }
+  [vw] [vw-access-button] .access-button:hover + .pop-up {
+    width: 68%; }
+  [vw] [vw-access-button] .pop-up {
+    float: right;
+    width: 0%;
+    margin-right: 6px;
+    -webkit-transition: width 2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s; }
+  [vw] [vw-access-button] .pop-up.left {
+    float: left !important;
+    margin-right: 0px; }
+  [vw] [vw-access-button] .access-button.left {
+    float: left !important;
+    margin-right: 6px; }
+</style><style>.vw-links {
+  top: -100px;
+  left: -100px;
+  position: absolute; }
+  .vw-links .vw-tooltip {
+    position: relative;
+    opacity: 1; }
+    .vw-links .vw-tooltip__item {
+      text-align: center;
+      position: absolute;
+      min-width: 123px;
+      padding: 8px;
+      visibility: hidden;
+      opacity: 0;
+      background: white;
+      transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
+      color: #484848;
+      border: 1px solid #cecece;
+      border-radius: 3px;
+      font-weight: 500;
+      box-shadow: 0 2px 1px #bcbcbc;
+      z-index: 4; }
+      .vw-links .vw-tooltip__item:after {
+        content: """";
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid; }
+    .vw-links .vw-tooltip__initiator {
+      cursor: pointer;
+      z-index: 5; }
+    .vw-links .vw-tooltip .vw-tooltip__item {
+      top: calc(100% + 1em);
+      left: 50%;
+      transform: translate3d(-50%, -15px, 0); }
+      .vw-links .vw-tooltip .vw-tooltip__item:after {
+        top: -0.5em;
+        left: 50%;
+        transform: translate3d(-50%, 0, 0);
+        border-width: 0 0.5em 0.5em 0.5em;
+        border-color: transparent transparent white transparent;
+        -webkit-filter: drop-shadow(1px 2px 1px #bcbcbc);
+        filter: drop-shadow(1px -1px 1px #bcbcbc); }
+    .vw-links .vw-tooltip.active > .vw-tooltip__item {
+      transform: translate3d(-50%, 0, 0);
+      visibility: visible;
+      opacity: 1; }
+
+[vw].maximize [vw-plugin-wrapper] {
+  width: 100%;
+  height: 100% !important;
+  max-height: initial !important; }
+
+[vw].left [vw-plugin-wrapper] {
+  float: left; }
+
+[vw] [vw-plugin-wrapper] {
+  display: none;
+  width: 300px;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+  background: white;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(121, 76, 76, 0.15);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.15); }
+  [vw] [vw-plugin-wrapper].active {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 450px;
+    max-width: 100%;
+    overflow: hidden;
+    min-height: 100%; }
+</style><style>[vw] {
+  /* HTML5 display-role reset for older browsers */ }
+  [vw] html, [vw] body, [vw] div, [vw] span, [vw] applet, [vw] object, [vw] iframe,
+  [vw] h1, [vw] h2, [vw] h3, [vw] h4, [vw] h5, [vw] h6, [vw] p, [vw] blockquote, [vw] pre,
+  [vw] a, [vw] abbr, [vw] acronym, [vw] address, [vw] big, [vw] cite, [vw] code,
+  [vw] del, [vw] dfn, [vw] em, [vw] img, [vw] ins, [vw] kbd, [vw] q, [vw] s, [vw] samp,
+  [vw] small, [vw] strike, [vw] strong, [vw] sub, [vw] sup, [vw] tt, [vw] var,
+  [vw] b, [vw] u, [vw] i, [vw] center,
+  [vw] dl, [vw] dt, [vw] dd, [vw] ol, [vw] ul, [vw] li,
+  [vw] fieldset, [vw] form, [vw] label, [vw] legend,
+  [vw] table, [vw] caption, [vw] tbody, [vw] tfoot, [vw] thead, [vw] tr, [vw] th, [vw] td,
+  [vw] article, [vw] aside, [vw] canvas, [vw] details, [vw] embed,
+  [vw] figure, [vw] figcaption, [vw] footer, [vw] header, [vw] hgroup,
+  [vw] menu, [vw] nav, [vw] output, [vw] ruby, [vw] section, [vw] summary,
+  [vw] time, [vw] mark, [vw] audio, [vw] video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block; }
+  [vw] article, [vw] aside, [vw] details, [vw] figcaption, [vw] figure,
+  [vw] footer, [vw] header, [vw] hgroup, [vw] menu, [vw] nav, [vw] section {
+    display: block; }
+  [vw] img {
+    width: unset; }
+  [vw] body {
+    line-height: 1; }
+  [vw] ol, [vw] ul {
+    list-style: none; }
+  [vw] blockquote, [vw] q {
+    quotes: none; }
+  [vw] blockquote:before, [vw] blockquote:after,
+  [vw] q:before, [vw] q:after {
+    content: '';
+    content: none; }
+  [vw] table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+</style><style>@media (max-width: 450px) {
+  div[vw] canvas {
+    min-height: unset !important;
+    min-width: unset !important;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    -o-filter: blur(0px);
+    filter: blur(0px);
+    min-height: calc(0.35 * 680px) !important;
+    min-width: calc(0.35 * 420px) !important; }
+  div[vw] [vw-plugin-wrapper].active {
+    height: 358px !important;
+    width: 210px !important; }
+  #gameContainer {
+    display: flex !important;
+    justify-content: center !important;
+    top: -75px !important;
+    left: -90px !important;
+    width: 100% !important;
+    height: 70% !important; }
+  [vp] [vp-controls] {
+    left: 36% !important;
+    bottom: 20% !important;
+    background: white; }
+  [vp] .vpw-controls-slider {
+    width: 27% !important; }
+  [vp] .vpw-box .vpw-mes {
+    left: 36% !important;
+    font-size: 12px !important; }
+  [vp] .vpw-settings-btn .vpw-settings-btn-close,
+  [vp] .vpw-btn-close .vpw-img {
+    right: 100px; }
+  [vp] [vp-rate-box].vp-enabled .vp-container {
+    margin-right: 70px;
+    margin-bottom: 80px; }
+  [vp] [vp-rate-button] .vp-button {
+    margin-right: 110px;
+    margin-bottom: 130px; }
+  [vp] [vp-rate-button] .vp-button img {
+    width: 32px;
+    margin-bottom: -37px;
+    margin-right: -14px; }
+  [vp] .vpw-message-box {
+    font-size: 0.7em; }
+    [vp] .vpw-message-box .vpw-message {
+      margin-left: 10px;
+      margin-right: 93px;
+      margin-bottom: 3px; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo {
+    left: 39%;
+    bottom: 125px; }
+  [vp] .vpw-settings .vpw-content > ul {
+    margin-left: -20px; }
+  [vp] .vpw-settings .vpw-content > ul li .vpw-name {
+    font-size: 12px; }
+  [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-flag {
+    right: 88px;
+    height: 24px; }
+  [vp] .vpw-switch {
+    width: 48px;
+    height: 15px;
+    margin-top: -10px;
+    right: 64px; }
+  [vp] .vpw-slider-check.vpw-round:before {
+    top: -3px; }
+  [vp] .vpw-slider-check:before {
+    height: 21px;
+    width: 20px;
+    left: -20;
+    bottom: 4px; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-logo {
+    width: 51%;
+    margin-left: 32px; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo .vpw-vlibras-span {
+    left: 44%;
+    bottom: 5%; }
+  [vp] .vpw-settings .vpw-content .vpw-vlibras-logo {
+    left: 39%;
+    transform: translateX(-50%);
+    bottom: 125px; }
+  [vp] .vpw-settings .vpw-content > ul .vpw-localism .vpw-abbrev {
+    right: 65px; }
+  [vp] .vpw-controls-dictionary:not(.vpw-loading-dictionary):before {
+    font-size: 12px; }
+  [vp] .vpw-info-screen #vpw-info-tab-bullets {
+    right: 47px;
+    bottom: 100px; }
+  [vp] .vpw-info-screen .vpw-arrow-right.active {
+    right: 94px;
+    position: absolute;
+    top: 137px;
+    z-index: 4; }
+  [vp] .vpw-info-screen .vpw-arrow-left.active {
+    right: initial;
+    position: absolute;
+    top: 137px;
+    z-index: 4; }
+  [vp] .vpw-info-screen #vpw-info-main.active {
+    font-size: 0.7125em;
+    margin-right: 99px;
+    margin-bottom: 136px; }
+  [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label {
+    margin-top: -8px;
+    font-size: 14px; }
+  [vp] .vpw-info-screen .vpw-info-tab .vpw-info-tab-label-two {
+    font-size: 14px;
+    margin-top: 6px; }
+  [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo.ufpb {
+    max-width: 20%; }
+  [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group.text {
+    display: block; }
+  [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group.logo1 {
+    max-width: 70%; }
+  [vp] .vpw-info-screen #vpw-info-realizadores .vpw-logo-group.logo2 {
+    max-width: 86%; }
+  [vp] .vpw-info-screen #vpw-info-realizadores.active {
+    font-size: 0.8125em;
+    margin-right: 81px;
+    margin-bottom: 113px; }
+  [vp] .vpw-settings .vpw-content .vpw-flag {
+    height: 18px; }
+  [vp] .vpw-settings
+.vpw-content
+> .vpw-localism
+.vpw-regions
+> .vpw-container-regions {
+    margin-top: -1%;
+    margin-bottom: -2px; }
+  [vp] .vpw-settings .vpw-content > .vpw-localism {
+    width: 71%; }
+  [vp] .vpw-settings .vpw-content > .vpw-localism .vpw-regions {
+    left: -3px !important; }
+  [vp] .vpw-settings .vpw-content > ul .vpw-opacity {
+    margin-right: 56px; }
+  [vp] .vpw-dictionary .vpw-dict-container {
+    width: 64%;
+    height: 44%;
+    left: 44%; }
+  [vp] .vpw-bar .vpw-title {
+    margin-right: 40px; }
+  [vp] .vpw-dictionary .vpw-panel .vpw-search input {
+    width: 73%;
+    left: 39%; }
+  [vp] .vpw-dictionary .vpw-panel .vpw-search .vpw-icon img {
+    right: 70px; }
+  [vp] [vp-dictionary] {
+    right: 18px !important; }
+  [vp] .vpw-dictionary .vpw-dict-container ul li:not(.margin) {
+    padding: 5px; }
+  [vp] [vp-suggestion-button].vp-enabled {
+    right: 40px;
+    bottom: 150px !important; }
+  [vp] [vp-suggestion-screen] {
+    width: 72%;
+    height: 60%;
+    top: 41px; }
+  [vp] [vp-change-avatar] {
+    left: 9px;
+    top: 265px; }
+    [vp] [vp-change-avatar] .vp-button-change-avatar {
+      width: 30px;
+      height: 30px; }
+      [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-female {
+        width: 15px; }
+      [vp] [vp-change-avatar] .vp-button-change-avatar .change-avatar-male {
+        width: 15px; } }
+
+div[vw] {
+  position: fixed;
+  max-width: 95vw;
+  right: 0;
+  top: 60%;
+  margin-top: -32vh;
+  z-index: 99999999;
+  display: none;
+  font-family: Arial;
+  color: #000;
+  line-height: 1.3; }
+  div[vw].enabled {
+    display: block; }
+  div[vw].active {
+    margin-top: -285px; }
+  div[vw].maximize {
+    top: 6vh;
+    left: 6vh;
+    right: 6vh;
+    bottom: 6vh;
+    max-width: initial;
+    margin-top: 0; }
+  div[vw].left {
+    left: 0;
+    right: initial; }
+  div[vw] #gameContainer {
+    position: absolute !important;
+    top: -25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto !important;
+    min-height: calc(0.7 * 450px);
+    min-width: calc(0.9 * 300px);
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 0px;
+    background: none !important; }
+    div[vw] #gameContainer canvas {
+      min-height: calc(0.7 * 450px);
+      min-width: calc(0.9 * 300px);
+      height: 100%;
+      width: 100%;
+      -webkit-filter: blur(0px);
+      -moz-filter: blur(0px);
+      -ms-filter: blur(0px);
+      -o-filter: blur(0px);
+      filter: blur(0px); }
+  div[vw] [vp] {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+    min-height: 450px;
+    z-index: 1;
+    overflow: hidden; }
+    div[vw] [vp] [vp-message-box] {
+      position: absolute;
+      z-index: 5; }
+    div[vw] [vp] [vp-info-screen] {
+      z-index: 3; }
+      div[vw] [vp] [vp-info-screen] #info-text {
+        font-size: 1em !important; }
+      div[vw] [vp] [vp-info-screen] #info-realizadores {
+        font-size: 11px !important; }
+    div[vw] [vp] [vp-controls] {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0%;
+      max-width: 900px;
+      z-index: 2; }
+    div[vw] [vp] [vp-settings-btn] {
+      z-index: 2; }
+    div[vw] [vp] [vp-dictionary] {
+      z-index: 8; }
+    div[vw] [vp] [vp-rate-box] {
+      bottom: 58px; }
+    div[vw] [vp] [vp-suggestion-button].vp-enabled,
+    div[vw] [vp] [vp-suggestion-button] {
+      bottom: 58px; }
+    div[vw] [vp] [vp-suggestion-screen] {
+      top: 41px; }
+
+.vw-text:hover {
+  background-color: rgba(0, 63, 134, 0.2);
+  color: #000;
+  cursor: pointer; }
+
+.vw-text-active {
+  background-color: rgba(30, 63, 134, 0.2);
+  color: #000; }
+</style></head>","
+","<body class="""" translate=""no"">
+<div>
+<div aria-hidden=""true"" aria-labelledby=""modalLabel_signin"" class=""modal fade"" id=""modal_forgot_password"" role=""dialog"" tabindex=""-1"">
+<div class=""modal-dialog modal-sm"" role=""document"">
+<div class=""modal-content"">
+<form action=""https://ensaiosclinicos.gov.br/reset"" method=""post"">
+<div class=""modal-header"">
+<h5>Password reset request</h5>
+</div>
+<div class=""modal-body"">
+<div class=""form-group has-feedback"">
+<input class=""form-control"" name=""email"" placeholder=""Username"" required="""" type=""text"" value=""""/>
+<span class=""glyphicon glyphicon-envelope form-control-feedback""></span>
+</div>
+<div class=""row"">
+<div class=""col-sm-5"">
+</div><!-- /.col -->
+<div class=""col-sm-7"">
+<input class=""btn btn-primary btn-block btn-flat"" type=""submit"" value=""Require""/>
+</div><!-- /.col -->
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div aria-hidden=""true"" aria-labelledby=""modalLabel_signin"" class=""modal fade"" id=""modal_signin"" role=""dialog"" tabindex=""-1"">
+<div class=""modal-dialog modal-sm"" role=""document"">
+<div class=""modal-content"">
+<form action=""https://ensaiosclinicos.gov.br/signin"" method=""post"">
+<div class=""modal-header"">
+<img src=""https://ensaiosclinicos.gov.br/assets/images/rebec_logo.png"" width=""320px;""/>
+</div>
+<div class=""modal-body"">
+<div class=""form-group has-feedback"">
+<input class=""form-control"" name=""email"" placeholder=""Username"" required="""" type=""text"" value=""""/>
+<span class=""glyphicon glyphicon-envelope form-control-feedback""></span>
+</div>
+<div class=""form-group has-feedback"">
+<input class=""form-control"" name=""password"" placeholder=""Password"" required="""" type=""password""/>
+<span class=""glyphicon glyphicon-lock form-control-feedback""></span>
+</div>
+<div class=""row"">
+<div class=""col-sm-8"">
+</div><!-- /.col -->
+<div class=""col-sm-4"">
+<input class=""btn btn-primary btn-block btn-flat"" type=""submit"" value=""Sign in""/>
+</div><!-- /.col -->
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<header class=""no-fixed-top"" style=""background-color: white; "">
+<div class=""container-fluid position-static"" style=""padding-left: 0px;"">
+<div class=""row"">
+<div class=""col-md-12"" id=""barra-brasil""><div id=""wrapper-barra-brasil""><div class=""brasil-flag""><a class=""link-barra"" href=""https://gov.br"">Brasil</a></div><nav><ul class=""list"" id=""lista-barra-brasil""><li><a href=""#"" id=""menu-icon""></a></li><li class=""list-item first""><a href=""http://www.saude.gov.br/coronavirus"" style=""color:red;"">CORONAVÍRUS (COVID-19)</a></li><li class=""list-item""><a class=""link-barra"" href=""http://www.simplifique.gov.br"">Simplifique!</a></li><li class=""list-item""><a class=""link-barra"" href=""https://www.gov.br/pt-br/participacao-social/"">Participe</a></li><li class=""list-item""><a class=""link-barra"" href=""http://www.acessoainformacao.gov.br"">Acesso à informação</a></li><li class=""list-item""><a class=""link-barra"" href=""http://www.planalto.gov.br/legislacao"">Legislação</a></li><li class=""list-item last last-item""><a class=""link-barra"" href=""https://gov.br/pt-br/canais-do-executivo-federal"">Canais</a></li></ul></nav><span id=""brasil-vlibras""><a class=""logo-vlibras"" href=""#"" id=""logovlibras""></a><span class=""link-vlibras""><img class=""barralazy"" data-src=""//barra.brasil.gov.br/imagens/vlibras.gif"" height=""116"" src=""data:image/gif;base64,R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs="" width=""132""/> <br/>O conteúdo desse portal pode ser acessível em Libras usando o <a href=""http://www.vlibras.gov.br"">VLibras</a></span></span></div></div>
+</div>
+<div class=""row d-none d-md-block"">
+<div class=""col-md-12"">
+<ul class=""light-blue darken-3 on-contrast-force-black d-inline-block pull-right"" id=""acessibilidade"">
+<li class=""d-inline-block invisible"">
+<div class=""ui ignored icon font buttons small"">
+<a class=""increase ui button""> <i class=""plus icon""></i></a>
+<a class=""decrease ui button""> <i class=""minus icon""></i></a>
+</div>
+</li>
+<li class=""d-inline-block"">
+<a accesskey=""1"" href=""#conteudo"" title=""Go to main content"">
+                           Go to main content [1]
+                        </a>
+</li>
+<li class=""d-inline-block"">
+<a accesskey=""2"" href=""#menu"" title=""Go to main menu"">Go to main menu [2]
+                        </a>
+</li>
+<li class=""d-inline-block"">
+<a accesskey=""3"" onclick=""window.toggleContrast()"" role=""button"" tabindex=""0"" title=""Enable hight contrast"">Enable hight contrast [3]
+                        </a>
+</li>
+</ul>
+</div>
+</div>
+<div class=""row container-fluid"">
+<script>
+                $(window).ready(function() {
+                    // $('#menu_links').on('shown.bs.collapse', adjustPaddingTop);
+                    // $('#menu_links').on('hidden.bs.collapse', adjustPaddingTop);
+                });
+            </script>
+<div class=""col-1 invisible"">
+<button class=""btn btn-lg btn-outline-secondary"" data-target=""#menu_links"" data-toggle=""collapse"" type=""button"">
+<span class=""fa fa-bars""></span>
+</button>
+</div>
+<div class=""col-sm-7"">
+<img class=""image-responsive d-md-none"" src=""https://ensaiosclinicos.gov.br/assets/images/rebec_logo.png"" width=""200px""/>
+<img class=""image-responsive d-none d-md-block"" src=""https://ensaiosclinicos.gov.br/assets/images/rebec_logo.png"" width=""300px""/>
+</div>
+<div class=""col-sm-4 no-break"">
+<nav class=""navbar navbar-light bg-light"" id=""navbar-example2"">
+<span class=""dropdown"">
+<button aria-expanded=""false"" aria-haspopup=""true"" class=""btn dropdown-toggle"" data-toggle=""dropdown"" id=""dropdownMenuButton"" type=""button"">
+<span class=""d-none d-lg-inline"">Languages</span>
+</button>
+<div aria-labelledby=""dropdownMenuButton"" class=""dropdown-menu"">
+<a class=""dropdown-item select-language"" data-value=""en"" href=""#"">
+<span class=""flag-icon flag-icon-us""></span>
+<span> English</span>
+</a>
+<a class=""dropdown-item select-language"" data-value=""pt-br"" href=""#"">
+<span class=""flag-icon flag-icon-br""></span>
+<span> Português</span>
+</a>
+<a class=""dropdown-item select-language"" data-value=""es"" href=""#"">
+<span class=""flag-icon flag-icon-mx""></span>
+<span> Español</span>
+</a>
+</div>
+<script>
+                $(window).ready(function () {
+                    $('.select-language').on('click', function (event) {
+                        var cname = ""LANGUAGE"";
+                        var cvalue = $(this).attr('data-value');
+                        $(this).parents("".dropdown"").find('.btn').html($(this).html());
+                        document.cookie = cname + ""="" + cvalue + ""; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/"";
+                        window.location.reload(false);
+                    });
+                });
+            </script>
+</span>
+<ul class=""nav nav-pills"">
+<li class=""nav-item dropdown dropleft"">
+<a aria-expanded=""false"" aria-haspopup=""true"" class=""nav-link dropdown-toggle"" data-toggle=""dropdown"" href=""#"" role=""button"">
+<i class=""fa fa-user-o fa-4""></i>
+</a>
+<div class=""dropdown-menu"" id=""menu"">
+<div class=""dropdown-item"">
+<a class=""btn btn-default btn-flat"" data-target=""#modal_signin"" data-toggle=""modal"" href=""#"">
+<i class=""fa fa-sign-in""></i> Sign in                                        </a>
+</div>
+<div class=""dropdown-divider""></div>
+<div class=""dropdown-item"">
+<a class=""btn btn-default btn-flat"" data-target=""#modal_forgot_password"" data-toggle=""modal"" href=""#"">
+<i class=""fa fa-key""></i> Forgot my password                                        </a>
+</div>
+</div>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class=""d-none d-md-block"">
+<div class=""col-sm-12"">
+<div>
+</div>
+<div class=""breadcrumb clearfix"" style=""margin-top: 10px;"">
+<a class=""home"" href=""/"">
+<i class=""fa fa-home""></i>
+</a>
+<span class=""navigation-pipe"">&gt;</span>
+<a class=""clear"" href=""#"" onclick=""return false;"">
+                                    Record 
+                                </a>
+<span class=""navigation-pipe"">&gt;</span>
+<span>
+                            View                        </span>
+<span class=""navigation-pipe"">&gt;</span>
+</div>
+</div>
+</div>
+<div class=""collapse in"" id=""menu_links"">
+<div class=""row"">
+<div class=""col-12 border-dark"">-</div>
+</div>
+<div class=""col-12 border-dark"">
+<div class=""row"" id=""site_links"">
+<div class=""col-3 border-dark"">-</div>
+<div class=""col-3 border-dark"">-</div>
+<div class=""col-3 border-dark"">-</div>
+<div class=""col-3 border-dark"">-</div>
+</div>
+</div>
+</div>
+<div class=""row""><!-- PROCURA -->
+<div class=""col-sm-12 form-group-sm"">
+<form action=""https://ensaiosclinicos.gov.br/search/query/simple"" method=""post"">
+<div class=""input-group"">
+<div class=""input-group-prepend"">
+<div class=""input-group-text""></div>
+</div>
+<input class=""form-control form-control-sm"" name=""q"" placeholder=""Search on trials"" type=""text"" value=""""/>
+<div class=""input-group-append"">
+<button class=""btn btn-secondary btn-sm"" type=""submit""><i class=""fa fa-search""></i>
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class=""row"">
+<div class=""col-12 clearfix""> 
+            </div>
+</div>
+</div>
+<div style=""border: .2px solid rgba(86, 61, 124, .2)"">
+</div>
+</header>
+<!-- -->
+<style>
+    body {
+        font-size: 82.5%;
+    }
+    img {
+        max-width: 100%;
+    }
+</style>
+<style>
+    .menu_dashboard {
+        height: auto;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .footer {
+        background-color: #0f3f4f;
+        height: auto;
+        margin-left: 0;
+        width: 100%;
+        position: relative;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        overflow: auto;
+    }
+    .footer_links {
+        border-right: 1px solid #FFFFFF;
+        overflow: auto;
+        min-height: 232px;
+        color: #FFFFFF;
+        font-size: 14px;
+        padding: 1em 3em;
+    }
+    .footer_links a, .footer_links p {
+        color: #FFFFFF;
+        text-decoration: none;
+        padding-bottom: 10px;
+    }
+    .title_link, .title_link:hover {
+        color: #5D6162;
+        text-decoration: none;
+        padding-bottom: 1px;
+    }
+    .welcome_subtitle {
+        font-family: 'Lato', sans-serif;
+        font-size: 22px;
+        color: #5D6162;
+        font-weight: normal;
+    }
+</style>
+<style>
+    .fieldWrapper {
+        color: #231F20;
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: normal;
+        display: inline;
+    }
+    .input {
+        background-color: #ececeb;
+        margin-bottom: 20px;
+        height: 72px;
+        width: 80%;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-size: 30px;
+    }
+    .update input[type=""password""], .update input[type=""text""], .update input[type=""email""], .update input[type=""number""] {
+        border: 5px solid #ececeb;
+        margin-bottom: 20px;
+        height: 42px;
+        font-size: 14px;
+        font-family: Helvetica;
+        font-color: #000000;
+        width: 80%;
+    }
+    .fieldWrapper select {
+        border: solid;
+        border-color: #babcbd;
+        width: 60%;
+        height: 37px;
+        background-color: #FFFFFF;
+    }
+    .update select {
+        border: 5px solid #ececeb;
+        margin-bottom: 20px;
+        height: 42px;
+        font-size: 14px;
+        font-family: Helvetica;
+        font-color: #000000;
+        width: 60%;
+        background-color: #ffffff;
+    }
+</style>
+<style>
+    .table-bordered {
+        border: none;
+    }
+    .table_list {
+        width: 100%;
+        height: 16px;
+        padding-bottom: 22px;
+        margin-right: 20px;
+        overflow: auto;
+        margin-top: 20px;
+    }
+    .table_list .table_title th {
+        background-color: #0D6965;
+        color: #FFFFFF;
+        font-family: Helvetica;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .table_sumary th:first-child, .table_sumary th:last-child, .table_sumary th:nth-child(4) {
+        text-align: center;
+    }
+    .table th:first-child {
+        border-radius: 6px 0px 0px 0px;
+    }
+    .table th:last-child {
+        border-radius: 0px 6px 0px 0px;
+    }
+    table.table_list tbody tr:nth-child(odd) {
+        background-color: #eff2f1;
+    }
+</style>
+<style>
+    .alert-danger a {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+    }
+    a.anchor {
+        display: block;
+        position: relative;
+        top: -350px;
+        visibility: hidden;
+    }
+</style>
+<style>
+</style>
+<script>
+    function animatedScrollToId(id) {
+        $('html, body').animate({
+            // scrollTop: $(""[for*='""+id+""']"").offset().top - ($('header').height() + 10)
+            scrollTop: $(""[for*='""+id+""']"").offset().top - 10
+        }, 1000);
+        return false;
+    }
+    function showRemark(event_obj, element_id) {
+        try {
+            // Get all elements with class=""tabcontent"" and hide them
+            var tabcontent = document.getElementsByClassName(""tabcontent"");
+            for (var i = 0; i < tabcontent.length; i++) tabcontent[i].style.display = ""none"";
+            // Get all elements with class=""tablinks"" and remove the class ""active""
+            var tablinks = document.getElementsByClassName(""tablinks"");
+            for (var i = 0; i < tablinks.length; i++) tablinks[i].className = tablinks[i].className.replace("" active"", """");
+            // Show the current tab, and add an ""active"" class to the button that opened the tab
+            document.getElementById(element_id).style.display = """";
+            event_obj.currentTarget.className += "" active"";
+        } catch (error) {
+            console.error(error);
+        }
+    }
+
+</script>
+<style>
+    .large.text {
+        font-size: 3rem;
+    }
+</style>
+<main style=""background-color: #e7ecec !important; padding-left: 10px; padding-right: 10px;"">
+<div>
+</div>
+<div class=""container-fluid"" style=""padding-top: 10px; padding-bottom: 10px;"">
+<!-- ############################################################################################################### -->
+<style><!--
+    .container {
+    /*    margin: 0 auto;*/
+    /*    width: 1004px;*/
+        line-height: 1.7em;
+    /*    background: #fff;*/
+    }
+    span.label, span.legend {
+        font-weight: bold;
+    }
+    H2, H2 a {
+        color: #006837;
+        margin: 0px;
+        text-decoration: none;
+        font-size: 19px;
+    }
+    h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    section {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 95%;
+        font-family: 'Lato', sans-serif;
+        background: #f2f2f0;
+    }
+    .balloon {
+        border: 6px solid #ffffff;
+        border-radius: 16px;
+        -moz-border-radius: 16px;
+        -webkit-border-radius: 16px;
+        background-color: #999999;
+    }
+    .subset {
+        border: 1px solid #000000;
+        border-radius: 5px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        padding: 10px;
+        margin: 10px;
+    }
+    table.dataTable TH {
+        color: #0c4762;
+        font-size: 90%;
+        background: #dedede;
+    }
+    table.dataTable TH, table.dataTable TD {
+        border-bottom: 1px solid #c9c9c9;
+        font-size: 85%;
+        padding: 6px 4px;
+    }
+--></style>
+<section class=""row"">
+<div class=""col-12"">
+<div class=""row""> <!-- style=""max-height: 600px; overflow:auto; "" -->
+<section class=""container"">
+<span class=""welcome_subtitle"">
+<h5>Public trial</h5>
+<hr/>
+</span>
+<pre></pre>
+<pre></pre>
+<div class=""card menu_dashboard"">
+<div class=""card-title"">
+<h4></h4>
+<hr/>
+</div>
+<div class=""card-body text-justify"">
+<div class=""mainContent"">
+<h2>RBR-95x5kmk Effect of Electrical Stimulation of the brain associated with Physical Exercise for hip Tendonitis and Bursitis</h2>
+<span class=""label"">Date of registration:</span>
+<span class=""value"">
+                                    01/20/2023                                    <sup>(mm/dd/yyyy)</sup>
+</span>
+<br/>
+<span class=""label"">Last approval date :</span>
+<span class=""value"">
+                                    01/20/2023                                    <sup>(mm/dd/yyyy)</sup>
+</span>
+<h3>Study type:</h3>
+<p>Interventional</p>
+<div class=""spacer""> </div>
+<div class=""spacer""> </div>
+<h3>Scientific title:</h3>
+<div class=""row"">
+<div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>Effect of Transcranial Direct Current Electric Stimulation associated with Physical Exercise in patients with Greater Trochanteric Pain Syndrome</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>Efeito da Estimulação Elétrica Transcraniana Com Corrente Contínua associada ao Exercício Físico sobre dor e funcionalidade de pacientes com Síndrome Dolorosa do Trocânter Maior</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>es</h2>
+<p>Effect of Transcranial Direct Current Electric Stimulation associated with Physical Exercise in patients with Greater Trochanteric Pain Syndrome</p>
+</div> </div>
+<div class=""spacer""> </div>
+<h3>Trial identification</h3>
+<ul>
+<li>
+<span class=""label"">UTN code: </span>
+<span class=""value"">U1111-1285-7266</span>
+</li>
+<li>
+<p><span class=""label"">Public title:</span></p>
+<div class=""row"">
+<div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>Effect of Electrical Stimulation of the brain associated with Physical Exercise for hip Tendonitis and Bursitis</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>Efeito da Estimulação Elétrica do cérebro associada com Exercício Físico sobre Bursite e Tendinite do quadril</p>
+</div> </div>
+</li>
+<div class=""spacer""> </div>
+<li>
+<p><span class=""label"">Scientific acronym:</span></p>
+<div class=""row"">
+</div>
+</li>
+<div class=""spacer""> </div>
+<li>
+<p><span class=""label"">Public acronym:</span></p>
+<div class=""row"">
+</div>
+</li>
+<div class=""spacer""> </div>
+<li class=""subset"">
+<span class=""legend"">Secondaries identifiers:</span>
+<ul class=""odd"">
+<li>
+<span class=""label"">61187322.8.0000.5404</span><br/>
+<span class=""value"">Issuing authority:</span>
+<span class=""value"">Plataforma Brasil</span>
+</li>
+</ul>
+<ul class=""even"">
+<li>
+<span class=""label"">5.674.167</span><br/>
+<span class=""value"">Issuing authority:</span>
+<span class=""value"">Comitê de Ética em Pesquisa da Universidade Estadual de Campinas</span>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Sponsors</h3>
+<ul>
+<li>
+<span class=""label"">Primary sponsor:</span>
+<span class=""value"">Universidade Estadual de Campinas</span>
+</li>
+<li class=""subset"">
+<span class=""legend"">Secondary sponsor:</span>
+<ul class=""odd"">
+<li>
+<span class=""label"">Institution:</span>
+<span class=""value"">Universidade Estadual de Campinas</span>
+</li>
+</ul>
+</li>
+<li class=""subset"">
+<span class=""legend"">Supporting source:</span>
+<ul class=""odd"">
+<li>
+<span class=""label"">Institution:</span>
+<span class=""value"">Universidade Estadual de Campinas</span>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Health conditions</h3>
+<ul>
+<li>
+<p><span class=""label"">Health conditions:</span></p>
+<div class=""row"">
+<div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>Femur; Musculoskeletal pain</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>Trocanter Maior; Dor Osteomuscular</p>
+</div> </div>
+</li>
+<div class=""spacer""> </div>
+<li>
+<p><span class=""label"">General descriptors for health conditions:</span></p>
+<div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""label"">C23.888.592.612</span>
+<span class=""value"">Pain</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""label"">C23.888.592.612</span>
+<span class=""value"">Dor</span>
+</p>
+</div></div> <div class=""spacer""> </div>
+</li>
+<li>
+<p><span class=""label"">Specific descriptors:</span></p>
+<div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""label"">A02.835.232.043.150</span>
+<span class=""value"">Femur</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""label"">A02.835.232.043.150</span>
+<span class=""value"">Trocanter Maior</span>
+</p>
+</div></div><div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""label"">C05.651.538</span>
+<span class=""value"">Musculoskeletal Pain</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""label"">C05.651.538</span>
+<span class=""value"">Dor Osteomuscular</span>
+</p>
+</div></div> <div class=""spacer""> </div>
+</li>
+</ul>
+<h3>Interventions</h3>
+<ul>
+<!--                                    <li class=""subset"">-->
+<!--                                        <span class=""legend"">--><!--</span>-->
+<!--                                        <ul>-->
+<!--                                            <li>-->
+<!--                                                <span class=""label"">Other</span>-->
+<!--                                            </li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<li>
+<p><span class=""label"">Interventions:</span></p>
+<div class=""row"">
+<div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>Enrolled participants will be randomized using computer software, stratified by age and sex (15 participants per group), by an individual unrelated to the study data collection and analysis. The active group will receive stimulation associated with exercise and the control group will receive exercise with sham stimulation. The participants will not know which group they belong to, but the researchers will (since they adjust the stimulator).
+Participants will undergo 4 consecutive days of physical training consisting of: 1) 60-degree squats, 3 sets of 10 movements, with 30 seconds of rest in between; 2) unipodal support, 5 seconds on each member, alternating, during 10 repetitions, 2 times, with 30 seconds of interval in between; 3) step up, performed on a mini-ladder, 10 repetitions on each limb, 3 sets, with 30 seconds of rest between sets; 4) sitting abduction, resisted by an elastic band, 12 movements, 3 series, with a rest of 30 seconds; 5) hip raise, 10 movements, 3 sets, with 30 seconds of rest between sets; 6) light walking until completing 20 minutes of training.
+Transcranial direct current electrical stimulation will be applied concomitantly with the exercise, as recommended for painful pathologies and motor rehabilitation. The anode will be positioned in the dominant motor cortex and the cathode in the contralateral supraorbital area, through sponges moistened with saline solution fixed with elastic bands. The current will be 2mAmp and the total protocol time will be 20 minutes. The device used will be the NKL© MicroEstim. Control group participants will be connected to the same setup with the same device, following the manufacturer's sham stimulation protocol.</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>Os participantes incluídos serão randomizados através de software de computador, estratificados por idade e sexo, por um indivíduo não relacionado com a coleta e análise de dados do estudo. Estimam-se 15 participantes por grupo. O grupo ativo receberá estimulação associada ao exercício e o grupo controle receberá exercício com estimulação sham (placebo). Os participantes não saberão a que grupo pertencem, mas os pesquisadores saberão (uma vez que farão o ajuste do estimulador).
+Os participantes serão submetidos a 4 dias consecutivos de treinamento físico composto por: 1) Agachamento até 60º, 3 séries de 10 movimentos, com 30 segundos de intervalo entre as séries; 2) Apoio unipodálico, 5 segundos em cada membro, alternando, durante 10 repetições, por 2 vezes, com 30 segundos de intervalo entre as séries; 3) Subida de degrau (step up), realizada em mini escada de consultório médico, 10 repetições em cada membro, 3 séries, com 30 segundos de descanso entre as séries;4) Abdução sentada, resistida por banda elástica, 12 movimentos, 3 séries, com descanso de 30 segundos; 5) Elevação de quadril, 10 movimentos, 3 séries, com 30 segundos de descanso entre as séries; 6) Caminhada no plano até completar 20 minutos total de treinamento. 
+A estimulação elétrica transcraniana com corrente contínua será aplicada concomitantemente ao exercício, voltado para patologias álgicas e reabilitação motora. O ânodo será posicionado no córtex motor dominante e o cátodo na área supraorbitária contralateral, através de esponjas umedecidas com soro fisiológico fixadas com faixas elásticas. A carga será de 2mAmp e o tempo total de protocolo será de 20 minutos. O aparelho utilizado será o MicroEstim da marca NKL©. Os participantes do grupo controle serão conectados à mesma montagem com o mesmo aparelho, seguindo o protocolo de estimulação sham do fabricante.</p>
+</div> </div>
+</li>
+<div class=""spacer""> </div>
+<li>
+<p><span class=""label"">Descriptors:</span></p>
+<div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""label"">I03.350</span>
+<span class=""value"">Physical exercise</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""label"">I03.350</span>
+<span class=""value"">Exercício físico</span>
+</p>
+</div></div><div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""label"">E02.331.750</span>
+<span class=""value"">Transcranial Direct Current Stimulation</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""label"">E02.331.750</span>
+<span class=""value"">Estimulação Transcraniana por Corrente Contínua</span>
+</p>
+</div></div> <div class=""spacer""> </div>
+</li>
+</ul>
+<h3>Recruitment</h3>
+<ul>
+<li>
+<span class=""label"">Study status:</span>
+<span class=""value"">Not yet recruiting</span>
+</li>
+<li class=""subset"">
+<span class=""legend"">Countries</span>
+<ul>
+<li>Brazil</li> </ul>
+</li>
+<li>
+<span class=""label"">Date first enrollment:</span>
+<span class=""value"">
+                                                                                        02/02/2023                                            <sup>(mm/dd/yyyy)</sup>
+</span>
+</li>
+<li>
+<table class=""dataTable"">
+<tbody><tr>
+<th>Target sample size:</th>
+<th>Gender:</th>
+<th>Minimum age:</th>
+<th>Maximum age:</th>
+</tr>
+<tr>
+<td>30</td>
+<td>-</td>
+<td>18 Y</td>
+<td>0 </td>
+</tr>
+</tbody></table>
+</li>
+<li>
+<p><span class=""label"">Inclusion criteria:</span></p>
+<div class=""row"">
+<div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>Voluntaries with greater trochanteric pain syndrome; older than 18 years old; from both genders</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>Voluntários com síndrome dolorosa do trocanter maior; maiores de 18 anos; de ambos os sexos</p>
+</div> </div>
+</li>
+<div class=""spacer""> </div>
+<li>
+<p><span class=""label"">Exclusion criteria:</span></p>
+<div class=""row"">
+<div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>Motor or cardiovascular impairment precluding physical exercise; uncontrolled epilepsy; extensive skin lesions</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>Restrições motoras ou cardiovasculares que sejam impeditivas ao treinamento físico; epilepsia mal controlada; lesões de pele extensas</p>
+</div> </div>
+</li>
+<div class=""spacer""> </div>
+</ul>
+<h3>Study type</h3>
+<ul>
+<li>
+<p><span class=""label"">Study design:</span></p>
+<div class=""row"">
+</div>
+</li>
+<div class=""spacer""> </div>
+<li>
+<table class=""dataTable"">
+<thead>
+<tr>
+<th><span class=""label"">Expanded access program</span></th>
+<th><span class=""label"">Purpose</span></th>
+<th><span class=""label"">Intervention assignment</span></th>
+<th><span class=""label"">Number of arms</span></th>
+<th><span class=""label"">Masking type</span></th>
+<th><span class=""label"">Allocation</span></th>
+<th><span class=""label"">Study phase</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class=""value"">1</span></td>
+<td><span class=""value"">Treatment</span></td>
+<td><span class=""value"">Parallel</span></td>
+<td><span class=""value"">2</span></td>
+<td><span class=""value"">Single-blind</span></td>
+<td><span class=""value"">Randomized-controlled</span></td>
+<td><span class=""value"">N/A</span></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h3>Outcomes</h3>
+<ul>
+<li>
+<p><span class=""label"">Primary outcomes:</span></p>
+<div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""value"">An improvement in hip pain is expected on the 30th day, measured by the Brazilian version of the scale Victorian Institute for Sport Assessment for Gluteal Tendinopathy, with the active group statistically superior to the control group.</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""value"">Espera-se encontrar melhora da dor trocantérica no trigésimo dia, medida por um aumento na escala Victorian Institute for Sport Assessment for Gluteal Tendinopathy, versão brasileira, com diferença superior do grupo ativo em relação ao controle.</span>
+</p>
+</div></div> <div class=""spacer""> </div>
+</li>
+<li>
+<p><span class=""label"">Secondary outcomes:</span></p>
+<div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""value"">A larger improvement of the active group is expected immediately after the protocol and on the 60th day, measured by the Brazilian version of the scale Victorian Institute for Sport Assessment for Gluteal Tendinopathy.</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""value"">Espera-se encontrar maior melhora da dor trocantérica no grupo ativo imediatamente após o protocolo de intervenção e 60 dias após, medida por um aumento na escala Victorian Institute for Sport Assessment for Gluteal Tendinopathy, versão brasileira.</span>
+</p>
+</div></div><div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""value"">A larger improvement of the active group is expected immediately after the protocol, on the 30th day, and on the 60th day, in various domains of the Brazilian version of the Copenhagen Hip and Groin Outcome Score.</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""value"">Espera-se encontrar maior melhora da dor trocantérica no grupo ativo imediatamente após o protocolo de intervenção, 30 dias após e 60 dias após, medida por um aumento nos diversos domínios da escala Copenhagen Hip and Groin Outcome Score, versão brasileira.</span>
+</p>
+</div></div><div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""value"">A larger improvement of the active group is expected in various pain subtypes immediately after the protocol, on the 30th day, and on the 60th day, measured by the Brazilian version of the Pain Quality Assessment Scale.</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""value"">Espera-se encontrar maior melhora da dor trocantérica no grupo ativo nos vários tipos de dor, imediatamente após o protocolo de intervenção, 30 dias e 60 dias após, medidas através da escala Pain Quality Assessment Scale, versão brasileira.</span>
+</p>
+</div></div><div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""value"">A larger improvement of the active group in the pain felt in palpation of the greater trochanter immediately after the protocol, on the 30th day, and on the 60th day, measured by visual analogue scale.</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""value"">Espera-se encontrar maior melhora da dor à palpação do trocanter no grupo ativo, imediatamente após a intervenção, 30 dias e 60 dias após, medida por escala visual analógica.</span>
+</p>
+</div></div><div class=""row""><div class=""col-sm-3 balloon"">
+<h2>en</h2>
+<p>
+<span class=""value"">A larger improvement of the maximum time in unipedal support of the active group immediately after the protocol, on the 30th day and on the 60th day.</span>
+</p>
+</div><div class=""col-sm-3 balloon"">
+<h2>pt-br</h2>
+<p>
+<span class=""value"">Maior melhora do tempo máximo em apoio unipodálico do grupo ativo imediatamente após o protocolo, após 30 dias e 60 dias.</span>
+</p>
+</div></div> <div class=""spacer""> </div>
+</li>
+</ul>
+<h3>Contacts</h3>
+<ul>
+<li class=""subset"">
+<span class=""legend"">Public contact</span>
+<ul class=""vcard"">
+<li>
+<b>Full name:</b>
+<span class=""fn"">Jean Marcos De Souza</span>
+</li>
+<li>
+<ul class=""adr"">
+<li>
+<b>Address:</b>
+<span class=""street-address"">Rua Alexander Fleming, 181</span>
+</li>
+<li>
+<b>City: </b>
+<span><span class=""locality"">Campinas</span> / <span class=""country-name"">Brazil</span></span>
+</li>
+<li>
+<b>Zip code:</b>
+<span class=""postal-code"">13083881</span>
+</li>
+</ul>
+</li>
+<li>
+<b>Phone:</b>
+<span class=""tel"">+55 (19) 35219211</span>
+</li>
+<li>
+<b>Email:</b>
+<span class=""email"">souzajm@unicamp.br</span>
+</li>
+<li>
+<b>Affiliation:</b>
+<span class=""org"">Universidade Estadual de Campinas</span>
+</li>
+</ul>
+<div class=""spacer""> </div>
+</li>
+<li class=""subset"">
+<span class=""legend"">Scientific contact</span>
+<ul class=""vcard"">
+<li>
+<b>Full name:</b>
+<span class=""fn"">Jean Marcos De Souza</span>
+</li>
+<li>
+<ul class=""adr"">
+<li>
+<b>Address:</b>
+<span class=""street-address"">Rua Alexander Fleming, 181</span>
+</li>
+<li>
+<b>City:</b>
+<span><span class=""locality"">Campinas</span> / <span class=""country-name"">Brazil</span></span>
+</li>
+<li>
+<b>Zip code:</b>
+<span class=""postal-code"">13083881</span>
+</li>
+</ul>
+</li>
+<li>
+<b>Phone:</b>
+<span class=""tel"">+55 (19) 35219211</span>
+</li>
+<li>
+<b>Email:</b>
+<span class=""email"">souzajm@unicamp.br</span>
+</li>
+<li>
+<b>Affiliation:</b>
+<span class=""org"">Universidade Estadual de Campinas</span>
+</li>
+</ul>
+<div class=""spacer""> </div>
+</li>
+<li class=""subset"">
+<span class=""legend"">Site contact</span>
+<ul class=""vcard"">
+<li>
+<b>Full name:</b>
+<span class=""fn"">Jean Marcos De Souza</span>
+</li>
+<li>
+<ul class=""adr"">
+<li>
+<b>Address:</b>
+<span class=""street-address"">Rua Alexander Fleming, 181</span>
+</li>
+<li>
+<b>City:</b>
+<span><span class=""locality"">Campinas</span> / <span class=""country-name"">Brazil</span></span>
+</li>
+<li>
+<b>Zip code:</b>
+<span class=""postal-code"">13083881</span>
+</li>
+</ul>
+</li>
+<li>
+<b>Phone:</b>
+<span class=""tel"">+55 (19) 35219211</span>
+</li>
+<li>
+<b>Email:</b>
+<span class=""email"">souzajm@unicamp.br</span>
+</li>
+<li>
+<b>Affiliation:</b>
+<span class=""org"">Universidade Estadual de Campinas</span>
+</li>
+</ul>
+<div class=""spacer""> </div>
+</li>
+</ul>
+<h3>Additional links:</h3>
+<ul>
+<li><a href=""https://ensaiosclinicos.gov.br/xml_ictrp/downloadxmlictrp/13458"">Download in ICTRP format</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div> </div>
+</section>
+</div>
+<div> </div>
+<span></span>
+</div>
+</section>
+<!-- ############################################################################################################### -->
+</div>
+<div class=""row footer"">
+<div class=""col-md-4 col-sm-4 footer_links"">
+<p>Total de Ensaios Clínicos 12622.</p>
+<p>Existem 5982 ensaios clínicos registrados.</p>
+<p>Existem 3497 ensaios clínicos recrutando.</p>
+<p>Existem 279 ensaios clínicos em análise.</p>
+<p>Existem 4571 ensaios clínicos em rascunho.</p>
+</div>
+<div class=""col-md-4 col-sm-4 footer_links"">
+<p><a href=""/signup"">cadastre um novo usuário</a></p>
+<p><a href=""/news"">notícias</a></p>
+<p><a href=""/page/about"">sobre</a></p>
+</div>
+<div class=""col-md-4 col-sm-4 footer_links"">
+<p><a href=""/faq"">ajuda</a></p>
+<p><a href=""/page/contacts"">contato</a></p>
+<p><a href=""/page/staff"">equipe</a></p>
+<p><a href=""/page/links"">links úteis</a></p>
+<p><a href=""/page/vocabulary"">glossário</a></p>
+</div>
+<div class=""clear""> </div> </div>
+</main>
+<!--<div><pre>-->
+<!--</pre></div>-->
+<footer class="""" style=""background-color: #e7ecec !important;"">
+<div style=""background-color:white; height:100%; width:100%"">
+<p style=""text-align:center""><a href=""http://regional.bvsalud.org/php/index.php?lang=pt"" target=""_blank""><img alt="""" src=""/uploads/logos/bireme.png""/></a><a href=""http://www.fiocruz.br/cgi/cgilua.exe/sys/start.htm?tpl=home"" target=""_blank""><img alt="""" src=""/uploads/logos/fiocruz.png""/></a><a href=""http://www.brasil.gov.br"" target=""_blank""><img alt="""" src=""/uploads/logos/BRASIL2011-117x36.png""/></a> </p>
+<p style=""text-align:center""> </p>
+</div>
+<!--Start of Tawk.to Script--><script type=""text/javascript"">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement(""script""),s0=document.getElementsByTagName(""script"")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5a96bf824b401e45400d47e9/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script><!--End of Tawk.to Script--></footer>
+<script async="""" src=""http://barra.brasil.gov.br/barra.js"" type=""text/javascript""></script>
+<style>
+    @charset ""UTF-8"";
+
+    .contraste {
+        /* Cores */
+        /* Containers */
+        /* Textos */
+        /* SVGs */
+        /* Links */
+        /* Botões */
+        /* Dropdown */
+        /* Tooltips */
+        /* Tables */
+        /* Chips */
+        /* Preloaders */
+        /* Badges */
+        /* Pagination */
+        /* Datepicker */
+        /* Imagens */
+        /* Toasts */
+        /* Sidenav */
+        /* Tabs */
+        /* Blockquote */
+        /* Checkboxes */
+    }
+
+    .contraste .on-contrast-force-yellow-text {
+        color: #fff333 !important;
+    }
+
+    .contraste .on-contrast-force-white-text {
+        color: white !important;
+    }
+
+    .contraste .on-contrast-force-black {
+        background-color: black !important;
+    }
+
+    .contraste nav,
+    .contraste div,
+    .contraste li,
+    .contraste ol,
+    .contraste header,
+    .contraste footer,
+    .contraste section,
+    .contraste main,
+    .contraste aside,
+    .contraste article,
+    .contraste blockquote {
+        background: black !important;
+        color: white !important;
+    }
+
+    .contraste header {
+        border-bottom: 1px solid white !important;
+    }
+
+    .contraste main {
+        border-top: 1px solid white !important;
+        border-bottom: 1px solid white !important;
+    }
+
+    .contraste footer {
+        border-top: 1px solid white !important;
+    }
+
+    .contraste .z-depth-1 {
+        border: 1px solid white;
+    }
+
+    .contraste .divider {
+        background-color: white !important;
+    }
+
+    .contraste .card,
+    .contraste .card-panel,
+    .contraste .modal {
+        border: 1px solid white;
+    }
+
+    .contraste h1,
+    .contraste h2,
+    .contraste h3,
+    .contraste h4,
+    .contraste h5,
+    .contraste h6,
+    .contraste p,
+    .contraste label,
+    .contraste strong,
+    .contraste em,
+    .contraste cite,
+    .contraste q,
+    .contraste i,
+    .contraste b,
+    .contraste u,
+    .contraste span,
+    .contraste abbr {
+        color: white !important;
+    }
+
+    .contraste svg {
+        fill: white !important;
+    }
+
+    .contraste .input-field {
+        /* Labels */
+    }
+
+    .contraste .input-field input[type=text],
+    .contraste .input-field input[type=password],
+    .contraste .input-field input[type=url],
+    .contraste .input-field input[type=search],
+    .contraste .input-field input[type=email],
+    .contraste .input-field input[type=tel],
+    .contraste .input-field input[type=date],
+    .contraste .input-field input[type=month],
+    .contraste .input-field input[type=week],
+    .contraste .input-field input[type=datetime],
+    .contraste .input-field input[type=datetime-local],
+    .contraste .input-field textarea,
+    .contraste .input-field input[type=number] {
+        background: black !important;
+        border: 1px solid white !important;
+        color: white !important;
+    }
+
+    .contraste .input-field input[type=text]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=password]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=url]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=search]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=email]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=tel]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=date]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=month]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=week]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=datetime]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=datetime-local]:not([disabled]):not([readonly]):hover,
+    .contraste .input-field textarea:not([disabled]):not([readonly]):hover,
+    .contraste .input-field input[type=number]:not([disabled]):not([readonly]):hover {
+        border: 1px solid #fff333 !important;
+        -webkit-box-shadow: 0 0 2px 3px #fff333 !important;
+        box-shadow: 0 0 2px 3px #fff333 !important;
+    }
+
+    .contraste .input-field input[type=text]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=password]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=url]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=search]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=email]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=tel]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=date]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=month]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=week]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=datetime]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=datetime-local]:not([disabled]):not([readonly]):focus,
+    .contraste .input-field textarea:not([disabled]):not([readonly]):focus,
+    .contraste .input-field input[type=number]:not([disabled]):not([readonly]):focus {
+        border: 1px solid #fff333 !important;
+        -webkit-box-shadow: 0 0 2px 3px #fff333 !important;
+        box-shadow: 0 0 2px 3px #fff333 !important;
+    }
+
+    .contraste .input-field input[type=text]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=password]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=url]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=search]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=email]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=tel]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=date]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=month]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=week]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=datetime]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=datetime-local]:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field textarea:not([disabled]):not([readonly]):focus + label,
+    .contraste .input-field input[type=number]:not([disabled]):not([readonly]):focus + label {
+        color: #fff333 !important;
+    }
+
+    .contraste .input-field input[type=text].invalid,
+    .contraste .input-field input[type=password].invalid,
+    .contraste .input-field input[type=url].invalid,
+    .contraste .input-field input[type=search].invalid,
+    .contraste .input-field input[type=email].invalid,
+    .contraste .input-field input[type=tel].invalid,
+    .contraste .input-field input[type=date].invalid,
+    .contraste .input-field input[type=month].invalid,
+    .contraste .input-field input[type=week].invalid,
+    .contraste .input-field input[type=datetime].invalid,
+    .contraste .input-field input[type=datetime-local].invalid,
+    .contraste .input-field textarea.invalid,
+    .contraste .input-field input[type=number].invalid {
+        border: 1px solid #fff333 !important;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .contraste .input-field .select-wrapper + label {
+        top: -32px !important;
+        color: #fffeee !important;
+    }
+
+    .contraste .input-field .select-wrapper input:hover,
+    .contraste .input-field .select-wrapper input:focus {
+        border: 1px solid #fff333 !important;
+        -webkit-box-shadow: 0 0 2px 3px #fff333 !important;
+        box-shadow: 0 0 2px 3px #fff333 !important;
+    }
+
+    .contraste .input-field > input[type]:-webkit-autofill:not(.browser-default):not([type=""search""]) + label,
+    .contraste .input-field > input[type=date]:not(.browser-default) + label,
+    .contraste .input-field > input[type=time]:not(.browser-default) + label {
+        -webkit-transform: translateY(-14px) scale(0.8) !important;
+        transform: translateY(-14px) scale(0.8) !important;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+
+    .contraste .input-field > label:not(.label-icon).active {
+        -webkit-transform: translateY(-20px) scale(0.8) !important;
+        transform: translateY(-20px) scale(0.8) !important;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+
+    .contraste .helper-text {
+        font-size: 1em;
+        color: #fff333 !important;
+    }
+
+    .contraste .helper-text::after {
+        color: #fff333 !important;
+    }
+
+    .contraste a {
+        color: #fff333 !important;
+        background: black !important;
+        text-decoration: underline !important;
+    }
+
+    .contraste a.disabled {
+        color: white !important;
+    }
+
+    .contraste a:not(.disabled):hover,
+    .contraste a:not(.disabled):focus {
+        color: black !important;
+        font-weight: bold !important;
+        background-color: #fff333 !important;
+    }
+
+    .contraste a:not(.disabled):hover .material-icons,
+    .contraste a:not(.disabled):focus .material-icons {
+        color: black !important;
+    }
+
+    .contraste a:not(.disabled):hover svg,
+    .contraste a:not(.disabled):focus svg {
+        fill: black !important;
+    }
+
+    .contraste a svg {
+        fill: white !important;
+    }
+
+    .contraste a .material-icons {
+        color: white !important;
+    }
+
+    .contraste .btn,
+    .contraste .btn-flat,
+    .contraste .btn-floating,
+    .contraste .btn-large,
+    .contraste .btn-small,
+    .contraste button,
+    .contraste input[type=button],
+    .contraste input[type=reset],
+    .contraste input[type=submit] {
+        color: #fff333 !important;
+        background: black !important;
+        border: 1px solid #fff333 !important;
+        text-decoration: underline !important;
+    }
+
+    .contraste .btn.disabled,
+    .contraste .btn-flat.disabled,
+    .contraste .btn-floating.disabled,
+    .contraste .btn-large.disabled,
+    .contraste .btn-small.disabled,
+    .contraste button.disabled,
+    .contraste input[type=button].disabled,
+    .contraste input[type=reset].disabled,
+    .contraste input[type=submit].disabled {
+        color: white !important;
+        border: 1px solid white !important;
+    }
+
+    .contraste .btn .material-icons,
+    .contraste .btn-flat .material-icons,
+    .contraste .btn-floating .material-icons,
+    .contraste .btn-large .material-icons,
+    .contraste .btn-small .material-icons,
+    .contraste button .material-icons,
+    .contraste input[type=button] .material-icons,
+    .contraste input[type=reset] .material-icons,
+    .contraste input[type=submit] .material-icons {
+        color: white !important;
+    }
+
+    .contraste .btn svg,
+    .contraste .btn-flat svg,
+    .contraste .btn-floating svg,
+    .contraste .btn-large svg,
+    .contraste .btn-small svg,
+    .contraste button svg,
+    .contraste input[type=button] svg,
+    .contraste input[type=reset] svg,
+    .contraste input[type=submit] svg {
+        fill: white !important;
+    }
+
+    .contraste .btn:not(.disabled):hover,
+    .contraste .btn:not(.disabled):focus,
+    .contraste .btn-flat:not(.disabled):hover,
+    .contraste .btn-flat:not(.disabled):focus,
+    .contraste .btn-floating:not(.disabled):hover,
+    .contraste .btn-floating:not(.disabled):focus,
+    .contraste .btn-large:not(.disabled):hover,
+    .contraste .btn-large:not(.disabled):focus,
+    .contraste .btn-small:not(.disabled):hover,
+    .contraste .btn-small:not(.disabled):focus,
+    .contraste button:not(.disabled):hover,
+    .contraste button:not(.disabled):focus,
+    .contraste input[type=button]:not(.disabled):hover,
+    .contraste input[type=button]:not(.disabled):focus,
+    .contraste input[type=reset]:not(.disabled):hover,
+    .contraste input[type=reset]:not(.disabled):focus,
+    .contraste input[type=submit]:not(.disabled):hover,
+    .contraste input[type=submit]:not(.disabled):focus {
+        color: black !important;
+        font-weight: bold !important;
+        background-color: #fff333 !important;
+    }
+
+    .contraste .btn:not(.disabled):hover .material-icons,
+    .contraste .btn:not(.disabled):focus .material-icons,
+    .contraste .btn-flat:not(.disabled):hover .material-icons,
+    .contraste .btn-flat:not(.disabled):focus .material-icons,
+    .contraste .btn-floating:not(.disabled):hover .material-icons,
+    .contraste .btn-floating:not(.disabled):focus .material-icons,
+    .contraste .btn-large:not(.disabled):hover .material-icons,
+    .contraste .btn-large:not(.disabled):focus .material-icons,
+    .contraste .btn-small:not(.disabled):hover .material-icons,
+    .contraste .btn-small:not(.disabled):focus .material-icons,
+    .contraste button:not(.disabled):hover .material-icons,
+    .contraste button:not(.disabled):focus .material-icons,
+    .contraste input[type=button]:not(.disabled):hover .material-icons,
+    .contraste input[type=button]:not(.disabled):focus .material-icons,
+    .contraste input[type=reset]:not(.disabled):hover .material-icons,
+    .contraste input[type=reset]:not(.disabled):focus .material-icons,
+    .contraste input[type=submit]:not(.disabled):hover .material-icons,
+    .contraste input[type=submit]:not(.disabled):focus .material-icons {
+        color: black !important;
+        font-weight: bold !important;
+    }
+
+    .contraste .btn:not(.disabled):hover svg,
+    .contraste .btn:not(.disabled):focus svg,
+    .contraste .btn-flat:not(.disabled):hover svg,
+    .contraste .btn-flat:not(.disabled):focus svg,
+    .contraste .btn-floating:not(.disabled):hover svg,
+    .contraste .btn-floating:not(.disabled):focus svg,
+    .contraste .btn-large:not(.disabled):hover svg,
+    .contraste .btn-large:not(.disabled):focus svg,
+    .contraste .btn-small:not(.disabled):hover svg,
+    .contraste .btn-small:not(.disabled):focus svg,
+    .contraste button:not(.disabled):hover svg,
+    .contraste button:not(.disabled):focus svg,
+    .contraste input[type=button]:not(.disabled):hover svg,
+    .contraste input[type=button]:not(.disabled):focus svg,
+    .contraste input[type=reset]:not(.disabled):hover svg,
+    .contraste input[type=reset]:not(.disabled):focus svg,
+    .contraste input[type=submit]:not(.disabled):hover svg,
+    .contraste input[type=submit]:not(.disabled):focus svg {
+        fill: black !important;
+    }
+
+    .contraste .dropdown-content {
+        border: 1px solid white;
+    }
+
+    .contraste .dropdown-content span {
+        color: white;
+    }
+
+    .contraste .dropdown-content .selected,
+    .contraste .dropdown-content .selected span {
+        color: #fff333 !important;
+        text-decoration: underline;
+    }
+
+    .contraste .dropdown-content li:not(.disabled):hover,
+    .contraste .dropdown-content li:not(.disabled) span:hover {
+        color: black !important;
+        background-color: #fff333 !important;
+        font-weight: bold !important;
+    }
+
+    .contraste .material-tooltip {
+        background-color: white !important;
+    }
+
+    .contraste .tooltip-content {
+        color: black !important;
+        font-weight: bold;
+        background-color: white !important;
+    }
+
+    .contraste table tr {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .contraste table .striped > tbody > tr:nth-child(odd) {
+        background-color: rgba(255, 255, 255, 0.3) !important;
+    }
+
+    .contraste table .highlight > tbody > tr:hover {
+        background-color: rgba(255, 255, 255, 0.3) !important;
+    }
+
+    .contraste .chip {
+        border: 1px solid white;
+        text-decoration: underline;
+    }
+
+    .contraste .chip .close {
+        color: #fff333 !important;
+    }
+
+    .contraste .chip .close:hover,
+    .contraste .chip .close:focus {
+        color: #fff333 !important;
+        font-weight: bold;
+    }
+
+    .contraste .progress {
+        background-color: #505050 !important;
+    }
+
+    .contraste .progress .indeterminate,
+    .contraste .progress .determinate {
+        background-color: white !important;
+    }
+
+    .contraste .badge {
+        color: black !important;
+        font-weight: bold !important;
+        background-color: white !important;
+    }
+
+    .contraste .pagination .active a {
+        border-radius: 2px;
+        background-color: white !important;
+        color: black !important;
+        text-decoration: none !important;
+    }
+
+    .contraste .pagination .active a:focus,
+    .contraste .pagination .active a:hover {
+        cursor: default !important;
+        background-color: white !important;
+        color: black !important;
+        font-weight: normal !important;
+    }
+
+    .contraste .pagination .disabled a {
+        background-color: black !important;
+        color: white !important;
+        text-decoration: none !important;
+    }
+
+    .contraste .pagination .disabled a:hover,
+    .contraste .pagination .disabled a:focus {
+        background-color: black !important;
+        color: white !important;
+    }
+
+    .contraste .pagination .disabled a:hover .material-icons,
+    .contraste .pagination .disabled a:focus .material-icons {
+        background-color: black !important;
+        color: white !important;
+    }
+
+    .contraste .pagination .disabled a .material-icons {
+        background-color: black !important;
+        color: white !important;
+    }
+
+    .contraste .datepicker-date-display {
+        background-color: white !important;
+    }
+
+    .contraste .datepicker-date-display span {
+        color: black !important;
+    }
+
+    .contraste .datepicker-table abbr {
+        color: white !important;
+    }
+
+    .contraste .datepicker-table tr {
+        border: none;
+    }
+
+    .contraste .datepicker-table td.is-selected button {
+        color: black !important;
+        background-color: #fff333 !important;
+    }
+
+    .contraste .datepicker-table td.is-disabled button {
+        color: white !important;
+        border: 1px solid white !important;
+        background-color: black !important;
+    }
+
+    .contraste .datepicker-table td.is-disabled button:hover,
+    .contraste .datepicker-table td.is-disabled button:focus {
+        color: white !important;
+        border: 1px solid white !important;
+        background-color: black !important;
+    }
+
+    .contraste .datepicker-table td .datepicker-day-button:hover,
+    .contraste .datepicker-table td .datepicker-day-button:focus {
+        font-weight: normal !important;
+    }
+
+    .contraste img.on-contrast-force-gray {
+        -webkit-filter: grayscale(100%) contrast(120%);
+        filter: grayscale(100%) contrast(120%);
+    }
+
+    .contraste img.on-contrast-force-white {
+        -webkit-filter: brightness(0) invert(1);
+        filter: brightness(0) invert(1);
+    }
+
+    .contraste #toast-container {
+        background-color: transparent !important;
+    }
+
+    .contraste .toast,
+    .contraste .toast span {
+        background-color: white !important;
+        color: black !important;
+        font-weight: bold !important;
+    }
+
+    .contraste .sidenav {
+        background-color: black !important;
+    }
+
+    .contraste .sidenav li {
+        border-bottom: 1px white solid;
+    }
+
+    .contraste .sidenav li:hover {
+        border-bottom: 1px #fff333 solid;
+    }
+
+    .contraste .sidenav-overlay {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .contraste .tabs {
+        background-color: black;
+    }
+
+    .contraste .tabs .indicator {
+        background-color: #fff333 !important;
+    }
+
+    .contraste blockquote {
+        border-left-color: white;
+    }
+
+    .contraste [type=""checkbox""].filled-in:checked + span:not(.lever):before {
+        border-top: 2px solid transparent;
+        border-left: 2px solid transparent;
+        border-right: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+
+    .contraste [type=""checkbox""].filled-in:checked + span:not(.lever):after {
+        border: 2px solid #fff333;
+        background-color: #fff333;
+    }
+</style><div><div class=""enabled"" vw=""""><div class=""active"" vw-access-button=""""><img alt=""Conteúdo acessível em libras usando o VLibras Widget com opções dos Avatares Ícaro ou Hozana."" class=""access-button"" data-src=""assets/component-ac.png"" src=""https://vlibras.gov.br/app2/assets/component-ac.png""/>
+<img alt=""Conteúdo acessível em libras usando o VLibras Widget com opções dos Avatares Ícaro ou Hozana."" class=""pop-up"" data-src=""assets/popup.png"" src=""https://vlibras.gov.br/app2/assets/popup.png""/></div><div vw-plugin-wrapper=""""><div vp="""">
+<div vp-box=""""></div>
+<div vp-message-box=""""></div>
+<div vp-settings=""""></div>
+<div vp-settings-btn=""""></div>
+<div vp-info-screen=""""></div>
+<div vp-dictionary=""""></div>
+<div vp-suggestion-screen=""""></div>
+<div vp-suggestion-button=""""></div>
+<div vp-rate-box=""""></div>
+<div vp-rate-button=""""></div>
+<div vp-controls=""""></div>
+<div vp-change-avatar=""""></div>
+</div>
+</div></div></div><script src=""https://vlibras.gov.br/app2/vlibras-plugin.js"" type=""text/javascript""></script>
+<script>
+    (function($){
+        (function () {
+            const Contrast = {
+                storage: 'contrastState',
+                cssClass: 'contraste',
+                currentFontSize: null,
+                check: checkContrast,
+                getState: getContrastState,
+                setState: setContrastState,
+                toggle: toggleContrast,
+                updateView: updateViewContrast
+            };
+
+            window.toggleContrast = function () { Contrast.toggle(); };
+
+            Contrast.check();
+
+            function checkContrast() {
+                this.updateView();
+            }
+
+            function getContrastState() {
+                return localStorage.getItem(this.storage) === 'true';
+            }
+
+            function setContrastState(state) {
+                localStorage.setItem(this.storage, '' + state);
+                this.currentState = state;
+                this.updateView();
+            }
+
+            function updateViewContrast() {
+                let body = document.body;
+
+                if (this.currentState === null || typeof this.currentState === 'undefined')
+                    this.currentState = this.getState();
+
+                if (this.currentState)
+                    body.classList.add(this.cssClass);
+                else
+                    body.classList.remove(this.cssClass);
+            }
+
+            function toggleContrast() {
+                this.setState(!this.currentState);
+            }
+        })();
+    })(jQuery); // end of jQuery name space
+</script>
+</body>"
