@@ -117,6 +117,15 @@ for link in study:
         print(conditions)
         print("----------------")
 
+        General_descriptors = soup.select('.spacer+ li .balloon:nth-child(1) .value')
+        if len(General_descriptors) >0:
+            General_descriptors = General_descriptors[0].get_text()
+        else:
+            General_descriptors = 'General_descriptors_nao_encontrado'
+        print('General_descriptors')
+        print(General_descriptors)
+        print("----------------")
+
         names = soup.select('.subset~ .subset+ .subset .fn')
         if len(names) >0:
             names = names[0].get_text()
@@ -171,22 +180,20 @@ for link in study:
         print(institutions)
         print("----------------")
 
-        juju = str(titles), str(study_types), str(dates), str(ids), str(conditions), str(names), str(cities), str(countries), str(phones), str(emails), str(institutions)
+        juju = str(titles), str(study_types), str(dates), str(ids), str(conditions),str(General_descriptors), str(names), str(cities), str(countries), str(phones), str(emails), str(institutions)
         print('juju')
-        print(juju) 
+        print(juju)     
         rebec.append(juju)
     except Exception as e:
         print('não gravou: '+titles)
-        print('não gravou: '+ e.args[0])
-        
-#tentativa falha de adicionar um cabeçalho
-header = "titles", "study_types", "dates", "ids", "conditions", "names", "cities", "countries", "phones", "emails", "institutions"
-#fim da tentativa falha de adicionar um cabeçalho
+        print(e)
+        print('------')
+            
+header = "titles", "study_types", "dates", "ids", "conditions", "General_descriptors", "names", "cities", "countries", "phones", "emails", "institutions"
 
 print('inicio_da_gravacao')
 with open('rebec.csv', 'w', encoding="utf-16", newline='') as f:
-    write = csv.writer(f)
+    write = csv.writer(f, delimiter=';')
     write.writerow(header)
     write.writerows(rebec)
 print('fim_da_gravacao')
-navegador.quit()
